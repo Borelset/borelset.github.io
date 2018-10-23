@@ -6,7 +6,7 @@ email: xdnzxy@gmail.com
 description: ""
 keyword: ""
 url: "http://borelset.github.io"              # your host, for absolute URL
-baseurl: "/"         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
@@ -82,8 +82,8 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
+        title: "Borelset`s Blog",
+        href: "http://borelset.github.io"
     },{
         title: "Foo",
         href: "#"
