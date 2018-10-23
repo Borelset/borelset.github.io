@@ -1,10 +1,10 @@
 # Site settings
-title: Borelset
+title: Borelset`s Blog
 SEOTitle: 你的博客 | Borelset`s Blog
 header-img: img/home-bg.jpg
 email: xdnzxy@gmail.com
-description: ""
-keyword: ""
+description: "随笔"
+keyword: "no key words"
 url: "https://borelset.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -13,10 +13,10 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 # SNS settings
 RSS: false
 weibo_username:     xdnzxy  
-#zhihu_username:     huxpro
+#zhihu_username:     
 github_username:    Borelset
-#twitter_username:  huxpro
-#facebook_username:  huxpro
+#twitter_username:  
+#facebook_username:  
 
 
 
