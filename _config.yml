@@ -1,10 +1,10 @@
 # Site settings
 title: Borelset`s Blog
-SEOTitle: 你的博客 | Borelset`s Blog
+SEOTitle: Borelset`s Blog
 header-img: img/home-bg.jpg
 email: xdnzxy@gmail.com
 description: "随笔"
-keyword: "no key words"
+keyword: ""
 url: "https://borelset.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -14,7 +14,7 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 RSS: false
 weibo_username:     xdnzxy  
 #zhihu_username:     
-github_username:    Borelset
+github_username:    borelset
 #twitter_username:  
 #facebook_username:  
 
@@ -79,22 +79,19 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 
-# Friends
+# Blog Links
 friends: [
     {
-        title: "Borelset`s Blog",
-        href: "https://borelset.github.io"
+        title: "Hankscs",
+        href: "http://www.hankcs.com/"
     },{
-        title: "Foo",
-        href: "#"
+        title: "WowoTech",
+        href: "http://www.wowotech.net/"
     },{
-        title: "Bar",
-        href: "#"
+        title: "PandaDemo",
+        href: "http://www.pandademo.com/"
     },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
+        title: "KernelMaker",
+        href: "http://kernelmaker.github.io"
     }
 ]
