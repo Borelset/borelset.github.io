@@ -65,21 +65,48 @@ layout: default
                 </ul>
 
             </div>
-            <div id="container"></div>
-            <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-            <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-            <script>
-                var gitment = new Gitment({
-                    id: 'location.href', // 可选。默认为 location.href
-                    owner: 'xdnzxy@gmail.com',
-                    repo: 'https://github.com/Borelset/BlogComments',
-                    oauth: {
-                        client_id: 'c29c43afb54b3b13e7e3',
-                        client_secret: '873e766a89cbc52fc03c9da78646aa86738b8eaf',
-                    },
-                })
-                gitment.render('container')
-            </script>
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                {% if site.featured-tags %}
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+        				{% for tag in site.tags %}
+                            {% if tag[1].size > {{site.featured-condition-size}} %}
+                				<a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+                                    {{ tag[0] }}
+                                </a>
+                            {% endif %}
+        				{% endfor %}
+        			</div>
+                </section>
+                {% endif %}
+
+                <hr>
+                <h5>Comments</h5>
+                <div id="container"></div>
+                <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+                <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+                <script>
+                    var gitment = new Gitment({
+                        id: 'location.href', // 可选。默认为 location.href
+                        owner: 'xdnzxy@gmail.com',
+                        repo: 'https://github.com/Borelset/BlogComments',
+                        oauth: {
+                            client_id: 'c29c43afb54b3b13e7e3',
+                            client_secret: '873e766a89cbc52fc03c9da78646aa86738b8eaf',
+                        },
+                    })
+                    gitment.render('container')
+                </script>
+            </div>
         </div>
     </div>
 </article>
