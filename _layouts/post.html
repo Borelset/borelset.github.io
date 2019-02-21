@@ -76,9 +76,11 @@ layout: default
                 <div id="CommentsContainer"></div>
                 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
                 <script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.js"></script>
+                <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
                 <script>
                     var gitment = new Gitment({
-                        id: 'location.href', // 可选。默认为 location.href
+                        id: 'document.location.href', // 可选。默认为 location.href
+                        id: md5(window.location.pathname.replace(/index.html/, "")),
                         owner: 'Borelset',
                         repo: 'BlogComments',
                         oauth: {
