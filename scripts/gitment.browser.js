@@ -3413,7 +3413,7 @@ var Gitment = function () {
       }, options);
 
       this.state.user.isLoggingIn = true;
-      _utils.http.post('https://198.13.32.5', {
+      _utils.http.post('https://gh-oauth.openapi.link', {
         code: code,
         client_id: client_id,
         client_secret: client_secret
