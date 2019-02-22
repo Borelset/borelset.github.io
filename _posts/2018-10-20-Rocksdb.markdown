@@ -4,7 +4,7 @@ title:      "Rocksdb"
 date:       2018-10-20 16:00:00
 author:     "Borelset"
 tags:
-    - Rocksdb
+    - Database
 ---
 
 最近需要对Rocksdb的内部工作方式进行一些了解，于是看了看Rocksdb的代码，写一写文档。
