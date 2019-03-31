@@ -44,7 +44,7 @@ SZ Compressor是阿贡国家实验室开启的一个项目，主要用来处理�
 
 ------------------------------
 
-###我们的优化
+### 我们的优化
 我们在相对误差的压缩流程上做了一个优化。我们看到在逐点处理的阶段上实际每个数据点都是做一个减法和一个除法，于是考虑省略掉第一个部分的对数变换，将其融入到逐点处理中，以节省对数处理的耗时。节省掉对数变换占总体1/3的耗时相当于将速度提升了50%，已经是一个比较大的提升了。
 将对数变换带来的影响一起考虑进逐点处理的公式中，第二个部分逐点处理的方法如下
 <p align="center">M=(log(fn)-log(fn'))/2log(1+e)</p>
@@ -57,8 +57,8 @@ SZ Compressor是阿贡国家实验室开启的一个项目，主要用来处理�
 ------------------------------
 
 ### 相关文献
-[1] Sheng Di, Franck Cappello, "Fast Error-bounded Lossy HPC Data Compression with SZ," to appear in International Parallel and Distributed Processing Symposium, 2016.
-[2] Sheng Di, Dingwen Tao, Xin Liang, and Franck Cappello, "Efficient Lossy Compression for Scientific Data based on Pointwise Relative Error Bound", in IEEE Transactions on Parallel and Distributed Systems (IEEE TPDS), 2018.
-[3] Xin Liang, Sheng Di, Dingwen Tao, Zizhong Chen, and Franck Cappello, "Efficient Transformation Scheme for Lossy Data Compression with Point-wise Relative Error Bound", in IEEE CLUSTER 2018.
-[4] Xin Liang, Sheng Di, Dingwen Tao, Zizhong Chen, Franck Cappello, "Error-Controlled Lossy Compression Optimized for High Compression Ratios of Scientific Datasets", in IEEE Bigdata, 2018.
+[1] Sheng Di, Franck Cappello, "Fast Error-bounded Lossy HPC Data Compression with SZ," to appear in International Parallel and Distributed Processing Symposium, 2016.  
+[2] Sheng Di, Dingwen Tao, Xin Liang, and Franck Cappello, "Efficient Lossy Compression for Scientific Data based on Pointwise Relative Error Bound", in IEEE Transactions on Parallel and Distributed Systems (IEEE TPDS), 2018.  
+[3] Xin Liang, Sheng Di, Dingwen Tao, Zizhong Chen, and Franck Cappello, "Efficient Transformation Scheme for Lossy Data Compression with Point-wise Relative Error Bound", in IEEE CLUSTER 2018.  
+[4] Xin Liang, Sheng Di, Dingwen Tao, Zizhong Chen, Franck Cappello, "Error-Controlled Lossy Compression Optimized for High Compression Ratios of Scientific Datasets", in IEEE Bigdata, 2018.  
 [5] Xiangyu Zou, Tao Lu, Wen Xia, Xuan Wang, Weizhe Zhang, Sheng Di, Dingwen Tao, Franck Cappello, "Accelerating Relative-error Bounded Lossy Compression for HPC datasets with Precomputation-Based Mechanisms", in Proceedings of the 35th International Conference on Massive Storage Systems and Technology (MSST '19), 2019.
