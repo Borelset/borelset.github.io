@@ -68,7 +68,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "用逻辑解释现象，用规律理解世界\nEmail: \txiangyu.zou@hotmail.com\n\tzouxy.hit@gmail.com"
+sidebar-about-description: "用逻辑解释现象，用规律理解世界\n\nEmail\n-------------\n xiangyu.zou@hotmail.com\nzouxy.hit@gmail.com"
 sidebar-avatar: /img/avatar-borelset.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
