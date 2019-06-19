@@ -76,22 +76,3 @@ sidebar-avatar: /img/avatar-borelset.jpg      # use absolute URL, seeing it's us
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-
-# Blog Links
-friends: [
-    {
-        title: "Hankscs",
-        href: "http://www.hankcs.com/"
-    },{
-        title: "WowoTech",
-        href: "http://www.wowotech.net/"
-    },{
-        title: "PandaDemo",
-        href: "http://www.pandademo.com/"
-    },{
-        title: "KernelMaker",
-        href: "http://kernelmaker.github.io"
-    }
-]
