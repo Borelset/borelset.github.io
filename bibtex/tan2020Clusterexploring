@@ -1,0 +1,10 @@
+@inproceedings{tan2020Exploring,
+    author={H. {Tan} and Z. {Zhang} and X. {Zou} and Q. {Liao} and W. {Xia}},
+    booktitle={Proceedings of 2020 IEEE International Conference on Cluster Computing (CLUSTER'20)},
+    title={Exploring the Potential of Fast Delta Encoding: Marching to a Higher Compression Ratio},
+    year={2020},
+    month=sep,
+    address = {Kobe, Japan},
+    pages={198-208},
+    doi={10.1109/CLUSTER49012.2020.00030}
+}
