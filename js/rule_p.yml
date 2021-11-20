@@ -39,6 +39,7 @@ rules:
     - 'DOMAIN-SUFFIX,local,🎯 全球直连'
     - 'DOMAIN-SUFFIX,localhost,🎯 全球直连'
     - 'SRC-IP-CIDR,192.168.31.212/32,🚀 节点选择'
+    - 'SRC-IP-CIDR,192.168.31.27/32,🚀 节点选择'
     - 'IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve'
     - 'IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve'
     - 'IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve'
