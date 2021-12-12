@@ -5,27 +5,27 @@ mode: Rule
 log-level: info
 external-controller: ':9090'
 proxies:
-    - { name: 香港丨专线丨HKBN丨1x, type: vmess, server: fee.jijifun.com, port: '29999', uuid: F1749DA5-9947-4456-A660-58D1613F682A, alterId: 0, cipher: auto, udp: false }
-    - { name: 香港丨专线丨HGC丨1x, type: vmess, server: fee.jijifun.com, port: '30001', uuid: F1749DA5-9947-4456-A660-58D1613F682A, alterId: 0, cipher: auto, udp: false }
-    - { name: 香港丨专线丨NTT丨1x, type: vmess, server: fee.jijifun.com, port: '30002', uuid: F1749DA5-9947-4456-A660-58D1613F682A, alterId: 0, cipher: auto, udp: false }
-    - { name: 新加坡丨专线丨NTT丨1x, type: vmess, server: fee.jijifun.com, port: '30003', uuid: F1749DA5-9947-4456-A660-58D1613F682A, alterId: 0, cipher: auto, udp: false }
+    - { name: 香港丨专线丨HKBN丨1x, type: vmess, server: e3f.jijifun.com, port: '29999', uuid: F1749DA5-9947-4456-A660-58D1613F682A, alterId: 0, cipher: auto, udp: false }
+    - { name: 香港丨专线丨HGC丨1x, type: vmess, server: e3f.jijifun.com, port: '30001', uuid: F1749DA5-9947-4456-A660-58D1613F682A, alterId: 0, cipher: auto, udp: false }
+    - { name: 香港丨专线丨NTT丨1x, type: vmess, server: e3f.jijifun.com, port: '30002', uuid: F1749DA5-9947-4456-A660-58D1613F682A, alterId: 0, cipher: auto, udp: false }
+    - { name: 新加坡丨专线丨NTT丨1x, type: vmess, server: e3f.jijifun.com, port: '30003', uuid: F1749DA5-9947-4456-A660-58D1613F682A, alterId: 0, cipher: auto, udp: false }
     - { name: 台湾丨专线丨Hinet丨1x, type: vmess, server: fee.jijifun.com, port: '30004', uuid: F1749DA5-9947-4456-A660-58D1613F682A, alterId: 0, cipher: auto, udp: false }
     - { name: 美国丨专线丨Linode丨1x, type: vmess, server: fee.jijifun.com, port: '30005', uuid: F1749DA5-9947-4456-A660-58D1613F682A, alterId: 0, cipher: auto, udp: false }
     - { name: 日本丨专线丨NTT丨1x, type: vmess, server: fee.jijifun.com, port: '30007', uuid: F1749DA5-9947-4456-A660-58D1613F682A, alterId: 0, cipher: auto, udp: false }
-    - { name: 香港丨专线丨HGC丨SS, type: ss, server: fee.jijifun.com, port: '20000', cipher: chacha20-ietf, password: '114514', plugin: obfs, plugin-opts: { mode: http, host: bd06558ca2.microsoft.com }, udp: false }
-    - { name: 香港丨专线丨NTT丨SS, type: ss, server: fee.jijifun.com, port: '20001', cipher: chacha20-ietf, password: '114514', plugin: obfs, plugin-opts: { mode: http, host: bd06558ca2.microsoft.com }, udp: false }
-    - { name: 香港丨专线丨HKBN丨SS, type: ss, server: fee.jijifun.com, port: '20002', cipher: chacha20-ietf, password: '114514', plugin: obfs, plugin-opts: { mode: http, host: bd06558ca2.microsoft.com }, udp: false }
-    - { name: 台湾丨专线丨HINET丨SS, type: ss, server: fee.jijifun.com, port: '20007', cipher: chacha20-ietf, password: '114514', plugin: obfs, plugin-opts: { mode: http, host: bd06558ca2.microsoft.com }, udp: false }
-    - { name: 新加坡丨专线丨NTT丨SS, type: ss, server: fee.jijifun.com, port: '20003', cipher: chacha20-ietf, password: '114514', plugin: obfs, plugin-opts: { mode: http, host: bd06558ca2.microsoft.com }, udp: false }
-    - { name: 日本丨专线丨NTT丨SS, type: ss, server: fee.jijifun.com, port: '20006', cipher: chacha20-ietf, password: '114514', plugin: obfs, plugin-opts: { mode: http, host: bd06558ca2.microsoft.com }, udp: false }
-    - { name: 美国丨专线丨Linode丨SS, type: ss, server: fee.jijifun.com, port: '20005', cipher: chacha20-ietf, password: '114514', plugin: obfs, plugin-opts: { mode: http, host: bd06558ca2.microsoft.com }, udp: false }
-    - { name: 香港丨专线丨HGC丨SSR, type: ssr, server: fee.jijifun.com, port: '20000', cipher: chacha20-ietf, password: '114514', protocol: origin, protocol-param: '', obfs: http_post, obfs-param: bd06558ca2.microsoft.com, udp: false }
-    - { name: 香港丨专线丨NTT丨SSR, type: ssr, server: fee.jijifun.com, port: '20001', cipher: chacha20-ietf, password: '114514', protocol: origin, protocol-param: '', obfs: http_post, obfs-param: bd06558ca2.microsoft.com, udp: false }
-    - { name: 香港丨专线丨HKBN丨SSR, type: ssr, server: fee.jijifun.com, port: '20002', cipher: chacha20-ietf, password: '114514', protocol: origin, protocol-param: '', obfs: http_post, obfs-param: bd06558ca2.microsoft.com, udp: false }
-    - { name: 台湾丨专线丨HINET丨SSR, type: ssr, server: fee.jijifun.com, port: '20007', cipher: chacha20-ietf, password: '114514', protocol: origin, protocol-param: '', obfs: http_post, obfs-param: bd06558ca2.microsoft.com, udp: false }
-    - { name: 新加坡丨专线丨NTT丨SSR, type: ssr, server: fee.jijifun.com, port: '20003', cipher: chacha20-ietf, password: '114514', protocol: origin, protocol-param: '', obfs: http_post, obfs-param: bd06558ca2.microsoft.com, udp: false }
-    - { name: 日本丨专线丨NTT丨SSR, type: ssr, server: fee.jijifun.com, port: '20006', cipher: chacha20-ietf, password: '114514', protocol: origin, protocol-param: '', obfs: http_post, obfs-param: bd06558ca2.microsoft.com, udp: false }
-    - { name: 美国丨专线丨Linode丨SSR, type: ssr, server: fee.jijifun.com, port: '20005', cipher: chacha20-ietf, password: '114514', protocol: origin, protocol-param: '', obfs: http_post, obfs-param: bd06558ca2.microsoft.com, udp: false }
+    - { name: 香港丨专线丨HGC丨SS, type: ss, server: e3f.jijifun.com, port: '20000', cipher: aes-256-gcm, password: '114514', plugin: obfs, plugin-opts: { mode: http, host: bd06558ca2.microsoft.com }, udp: false }
+    - { name: 香港丨专线丨NTT丨SS, type: ss, server: e3f.jijifun.com, port: '20001', cipher: aes-256-gcm, password: '114514', plugin: obfs, plugin-opts: { mode: http, host: bd06558ca2.microsoft.com }, udp: false }
+    - { name: 香港丨专线丨HKBN丨SS, type: ss, server: e3f.jijifun.com, port: '20002', cipher: aes-256-gcm, password: '114514', plugin: obfs, plugin-opts: { mode: http, host: bd06558ca2.microsoft.com }, udp: false }
+    - { name: 台湾丨专线丨HINET丨SS, type: ss, server: e3f.jijifun.com, port: '20007', cipher: aes-256-gcm, password: '114514', plugin: obfs, plugin-opts: { mode: http, host: bd06558ca2.microsoft.com }, udp: false }
+    - { name: 新加坡丨专线丨NTT丨SS, type: ss, server: e3f.jijifun.com, port: '20003', cipher: aes-256-gcm, password: '114514', plugin: obfs, plugin-opts: { mode: http, host: bd06558ca2.microsoft.com }, udp: false }
+    - { name: 日本丨专线丨NTT丨SS, type: ss, server: fee.jijifun.com, port: '20006', cipher: aes-256-gcm, password: '114514', plugin: obfs, plugin-opts: { mode: http, host: bd06558ca2.microsoft.com }, udp: false }
+    - { name: 美国丨专线丨Linode丨SS, type: ss, server: fee.jijifun.com, port: '20005', cipher: aes-256-gcm, password: '114514', plugin: obfs, plugin-opts: { mode: http, host: bd06558ca2.microsoft.com }, udp: false }
+    - { name: 香港丨专线丨HGC丨SSR, type: ssr, server: e3f.jijifun.com, port: '20000', cipher: aes-256-gcm, password: '114514', protocol: origin, protocol-param: '', obfs: http_post, obfs-param: bd06558ca2.microsoft.com, udp: false }
+    - { name: 香港丨专线丨NTT丨SSR, type: ssr, server: e3f.jijifun.com, port: '20001', cipher: aes-256-gcm, password: '114514', protocol: origin, protocol-param: '', obfs: http_post, obfs-param: bd06558ca2.microsoft.com, udp: false }
+    - { name: 香港丨专线丨HKBN丨SSR, type: ssr, server: e3f.jijifun.com, port: '20002', cipher: aes-256-gcm, password: '114514', protocol: origin, protocol-param: '', obfs: http_post, obfs-param: bd06558ca2.microsoft.com, udp: false }
+    - { name: 台湾丨专线丨HINET丨SSR, type: ssr, server: e3f.jijifun.com, port: '20007', cipher: aes-256-gcm, password: '114514', protocol: origin, protocol-param: '', obfs: http_post, obfs-param: bd06558ca2.microsoft.com, udp: false }
+    - { name: 新加坡丨专线丨NTT丨SSR, type: ssr, server: e3f.jijifun.com, port: '20003', cipher: aes-256-gcm, password: '114514', protocol: origin, protocol-param: '', obfs: http_post, obfs-param: bd06558ca2.microsoft.com, udp: false }
+    - { name: 日本丨专线丨NTT丨SSR, type: ssr, server: fee.jijifun.com, port: '20006', cipher: aes-256-gcm, password: '114514', protocol: origin, protocol-param: '', obfs: http_post, obfs-param: bd06558ca2.microsoft.com, udp: false }
+    - { name: 美国丨专线丨Linode丨SSR, type: ssr, server: fee.jijifun.com, port: '20005', cipher: aes-256-gcm, password: '114514', protocol: origin, protocol-param: '', obfs: http_post, obfs-param: bd06558ca2.microsoft.com, udp: false }
 proxy-groups:
     - { name: '🚀 节点选择', type: select, proxies: ['♻️ 自动选择', DIRECT, 香港丨专线丨HKBN丨1x, 香港丨专线丨HGC丨1x, 香港丨专线丨NTT丨1x, 新加坡丨专线丨NTT丨1x, 台湾丨专线丨Hinet丨1x, 美国丨专线丨Linode丨1x, 日本丨专线丨NTT丨1x, 香港丨专线丨HGC丨SS, 香港丨专线丨NTT丨SS, 香港丨专线丨HKBN丨SS, 台湾丨专线丨HINET丨SS, 新加坡丨专线丨NTT丨SS, 日本丨专线丨NTT丨SS, 美国丨专线丨Linode丨SS, 香港丨专线丨HGC丨SSR, 香港丨专线丨NTT丨SSR, 香港丨专线丨HKBN丨SSR, 台湾丨专线丨HINET丨SSR, 新加坡丨专线丨NTT丨SSR, 日本丨专线丨NTT丨SSR, 美国丨专线丨Linode丨SSR] }
     - { name: '♻️ 自动选择', type: url-test, url: 'http://www.gstatic.com/generate_204', interval: 300, tolerance: 50, proxies: [香港丨专线丨HKBN丨1x, 香港丨专线丨HGC丨1x, 香港丨专线丨NTT丨1x, 新加坡丨专线丨NTT丨1x, 台湾丨专线丨Hinet丨1x, 美国丨专线丨Linode丨1x, 日本丨专线丨NTT丨1x, 香港丨专线丨HGC丨SS, 香港丨专线丨NTT丨SS, 香港丨专线丨HKBN丨SS, 台湾丨专线丨HINET丨SS, 新加坡丨专线丨NTT丨SS, 日本丨专线丨NTT丨SS, 美国丨专线丨Linode丨SS, 香港丨专线丨HGC丨SSR, 香港丨专线丨NTT丨SSR, 香港丨专线丨HKBN丨SSR, 台湾丨专线丨HINET丨SSR, 新加坡丨专线丨NTT丨SSR, 日本丨专线丨NTT丨SSR, 美国丨专线丨Linode丨SSR] }
@@ -55,8 +55,8 @@ rules:
     - 'IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve'
     - 'IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve'
     - 'IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve'
-    - 'SRC-IP-CIDR,192.168.31.212/32,🚀 节点选择'
-    - 'SRC-IP-CIDR,192.168.31.27/32,🚀 节点选择'
+    - 'SRC-IP-CIDR,192.168.31.212/32,♻️ 自动选择'
+    - 'SRC-IP-CIDR,192.168.31.27/32,♻️ 自动选择'
     - 'DOMAIN,router.asus.com,🎯 全球直连'
     - 'DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连'
     - 'DOMAIN-SUFFIX,leike.cc,🎯 全球直连'
