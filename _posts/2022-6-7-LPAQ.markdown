@@ -1,0 +1,56 @@
+---
+layout:     post
+title:      "LPAQ"
+date:       2022-6-10 00:00:00
+author:     "Borelset"
+tags:
+- Algorithm
+---
+
+PAQ系列压缩器把数据压缩问题完全转换为了数据建模问题，根据数据建模进行逐bit的预测，并结合算术编码来对数据进行压缩。
+LPAQ是一个基于PAQ8l的简化版本。
+
+## Predictor
+LPAQ的核心是Predictor。它一方面负责根据输入的数据来进行学习，调整数据建模；另一方面则根据过去的输入结果来对下一个bit进行预测。
+Predictor类的成员如下
+```
+class Predictor {
+    int pr;  // next prediction
+
+    U8 t0[0x10000];  // order 1 cxt -> mode  // 保存order1的context对应的历史状态
+    HashTable<16> t;  // cxt -> mode  //保存order 2， 3， 4， 6， unigram的context对应的历史状态。
+    int c0 = 1;  // last 0-7 bits with leading 1 // 最新的若干bit
+    int c4 = 0;  // last 4 bytes  // 最近的4字节
+    U8 *cp[6] = {t0, t0, t0, t0, t0, t0};  // pointer to bit history // 分别对应order2,3,4,6,unigram的状态
+    int bcount = 0;  // bit count
+    StateMap sm[6];
+    APM a1, a2;
+    U32 h[6];
+    Mixer m;
+    MatchModel mm;  // predicts next bit by matching context
+```
+Predictor的原理其实就是“统计出现某种情况（数据片段）的时候下一个bit是什么，然后再次出现这种情况（数据片段）的时候，就根据过去的统计结果来进行预测”。
+而需要针对性统计的数据片段在这里被称为context。
+
+Predictor通过7种context来进行预测，分别是order 1, order 2, order 3, order 4, order 6, unigram和MatchModel。
+
+* order n这种context可以认为是一个长度为n字节的前缀。比如说，如果我有一个字符串“abcdefg”，那么当需要预测g的下一个bit时，order 1的context就是“g”，order 2的context就是“fg”，order 3的context就是“efg”，以此类推。
+* unigram种context是设计出来专门针对字母型语言的文本数据的，它会忽略非字母数据（ACSII），并且忽略文本的大小写，并且在遇到文本空格时截断。
+* MatchModel这种context会利用过去的数据流，如果遇到了过去出现过的重复片段，则会直接根据过去的历史来进行预测。
+
+在上述的这些类成员中
+* t0被用来记录order 1 context的统计结果。
+* t被用来记录order 2， order 3， order 4， order 6 context的统计结果。
+* mm被用来记录MatchModel context的统计结果。
+* c0和c4记录了最近的若干bit和字节，为了方便计算得到context。(虽然我们说order n这种context就是最近的n个字节的前缀，但是在代码中会根据这个前缀计算出一个哈希值代替context本身)
+* cp是六个指针，分别对应order 1, order 2, order 3, order 4, order 6, unigram context所指向的记录。比如说，目前的order 1 context是“b”，有关于“b”的统计结果被保存于t0中的某个位置pos。那么此时cp[0]就应该是t0[pos]。
+* bcount用来记录当前处理的bit是一个字节的第几个bit。（Predictor逐bit的进行学习和预测）
+* sm用来进行实现从统计到预测概率的转换。一个数组中又饿6个StateMap，分别对应order 1, order 2, order 3, order 4, order 6和unigram。MatchModel的数据结构里有一个属于自己的StateMap，因此不在sm这个数组里。
+* a1和a2负责最终依次对预测概率的修正
+* h分别保存order 1, order 2, order 3, order 4, order 6, unigram context计算出的哈希值。
+* m负责把7种不同context得到的预测概率进行加权混合。
+
+## StateMap
+StateMap负责根据统计结果来进行概率预测。
+
+// todo..
