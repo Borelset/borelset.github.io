@@ -3,4 +3,4 @@
 #!system=mac
 
 [Rule]
-DOMAIN-SUFFIX, teamviewer.com, direct
+DOMAIN-SUFFIX,teamviewer.com,DIRECT
