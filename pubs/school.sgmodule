@@ -1,0 +1,7 @@
+#!name=school_direct
+#!desc=校内网链接直连
+#!system=mac
+
+[Rule]
+IP-CIDR,10.0.0.0/8,DEVICE:1704Macmini
+IP-CIDR,219.223.0.0/16,DEVICE:1704Macmini
