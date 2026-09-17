@@ -1,0 +1,6 @@
+#!name=Teamviewer_direct
+#!desc=Teamviewer链接直连
+#!system=mac
+
+[Rule]
+DOMAIN-SUFFIX, ://teamviewer.com, direct
