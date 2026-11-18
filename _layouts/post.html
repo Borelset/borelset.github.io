@@ -66,31 +66,7 @@ layout: default
 
             </div>
 
-    <!-- Sidebar Container -->
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                sidebar-container">
 
-                <h5>Comments</h5>
-                <div id="CommentsContainer"></div>
-                <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-                <script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.js"></script>
-                <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
-                <script>
-                    var gitment = new Gitment({
-                        //id: 'document.location.href', // 可选。默认为 location.href
-                        id: md5(window.location.pathname.replace(/index.html/, "")),
-                        owner: 'Borelset',
-                        repo: 'BlogComments',
-                        oauth: {
-                            client_id: 'c29c43afb54b3b13e7e3',
-                            client_secret: '873e766a89cbc52fc03c9da78646aa86738b8eaf',
-                        },
-                    })
-                    gitment.render('CommentsContainer')
-                </script>
-            </div>
         </div>
     </div>
 </article>
@@ -109,7 +85,7 @@ layout: default
 </script>
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
 <script>
-    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+    async("https://cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
         anchors.options = {
           visible: 'always',
           placement: 'right',

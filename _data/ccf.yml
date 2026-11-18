@@ -1,0 +1,32 @@
+# CCF international venue catalogue, seventh edition, corrected April 9, 2026.
+year: 2026
+source_url: https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml
+ranks:
+  AAAI: A
+  APPT: C
+  ASPLOS: A
+  Cluster: B
+  DAC: A
+  DCC: B
+  EuroSys: A
+  FAST: A
+  FGCS: C
+  HPCC: C
+  HPDC: A
+  ICCD: B
+  ICDE: A
+  ICLR: A
+  ICML: A
+  ICPP: B
+  IWQoS: B
+  MSST: B
+  NAS: C
+  NPC: C
+  OSDI: A
+  SoCC: B
+  TACO: A
+  TC: A
+  TCAD: A
+  TOS: A
+  TPDS: A
+  USENIX ATC: A # Listed as ACM SIGOPS ATC in this edition.

@@ -58,29 +58,10 @@
                         </a>
                     </li>
                     {% endif %}
-                    {% if site.github_username %}
-                    <li>
-                        <a target="_blank" href="https://github.com/{{ site.github_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
                 </ul>
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
-                    <!-- Global site tag (gtag.js) - Google Analytics -->
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q30JSZVZZ6"></script>
-                    <script>
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-
-                        gtag('config', 'G-Q30JSZVZZ6');
-                    </script>
                     <script>
                         var _hmt = _hmt || [];
                         (function() {
@@ -166,25 +147,6 @@
         if($nav) FastClick.attach($nav);
     })
 </script>
-
-
-<!-- Google Analytics -->
-{% if site.ga_track_id %}
-<script>
-    // dynamic User by Hux
-    var _gaId = '{{ site.ga_track_id }}';
-    var _gaDomain = '{{ site.ga_domain }}';
-
-    // Originial
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', _gaId, _gaDomain);
-    ga('send', 'pageview');
-</script>
-{% endif %}
 
 
 <!-- Baidu Tongji -->

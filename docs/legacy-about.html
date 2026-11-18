@@ -1,0 +1,358 @@
+---
+layout: page
+title: "About"
+description: "Xiangyu \"Borelset\" Zou"
+header-img: "img/about-bg.jpg"
+---
+
+<script type="text/javascript">
+    function show(windowid) {
+        var popup = document.getElementById(windowid);
+        popup.classList.toggle("show");
+    }
+</script>
+
+<style type="text/css">
+    /* Popup container - can be anything you want */
+    .popup {
+        position: relative;
+        display: inline-block;
+        cursor: text;
+        -webkit-user-select: text;
+        -moz-user-select: text;
+        -ms-user-select: text;
+        user-select: text;
+    }
+
+    /* The actual popup */
+    .popup .popuptext {
+        visibility: hidden;
+        width: 600px;
+        background-color: #555;
+        color: #fff;
+        text-align: left;
+        border-radius: 6px;
+        padding: 10px 20px;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -80px;
+    }
+
+    /* Popup arrow */
+    .popup .popuptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+    }
+
+    /* Toggle this class - hide and show the popup */
+    .popup .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
+    }
+
+    /* Add animation (fade in the popup) */
+    @-webkit-keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+    @keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity:1 ;}
+    }
+</style>
+
+<!-- English Version -->
+<div class="en post-container">
+
+    <h4>Research Interests</h4>
+    <ul>
+        <li>Storage System / Data Deduplication</li>
+        <li>Distributed System</li>
+        <li>Lossy Compression</li>
+        <li>Key/Value Store</li>
+    </ul>
+
+    <h4>Education Experience</h4>
+    <ul>
+        <li>B.Sc. in Mathematics from <a href="http://www.sdu.edu.cn/">Shandong University</a>(SDU), Jinan, Shandong, China</li>
+        <li>M.Eng. in Software Engineering from <a href="https://www.ustc.edu.cn/">University of Science and Technology of China</a>(USTC), Hefei, Anhui, China</li>
+        <li>Ph.D. student in Computer Science and Technology from <a href="http://www.hitsz.edu.cn/">Harbin Institute of Technology</a>(HIT), Shenzhen, Guangdong, China</li>
+    </ul>
+
+    <h4 style="text-align:justify; text-justify:inter-ideograph;">Publications</h4>
+    <ul>
+        <li>2025</li>
+        <ol>
+            <li>Yufan Chen, <strong>Xiangyu Zou*</strong>, Kaiwen Deng, Hao Hu, Cai Deng, Ke Feng and Wen Xia,
+                "Apic: A Precomputation-based Integer Compressor for OLTP Databases",
+                in Proceedings of the 35th IEEE International Data Compression Conference (<strong>DCC'25, CCF-B</strong>).
+                March 2025.
+            </li>
+            <li>Hao Hu, Qiyang Zheng, <strong>Xiangyu Zou</strong>, Lisha Qin, Chengwei Zhang, Wanchuan Zhang, Zhaoheng Jiang, Dingwen Tao, Hongpeng Wang, and Wen Xia*,
+                "A Cost-Effective and Decompression-Transparent Compressor for OLTP-Oriented Databases",
+                in Proceedings of the 41st IEEE International Conference on Data Engineering (<strong>ICDE'25, CCF-A</strong>),
+                Hong Kong, China, May 19-23, 2025.
+            </li>
+            <li>Yanqi Pan, Wen Xia, Erci Xu, <strong>Xiangyu Zou</strong>, Hao Huang,
+                "Don't Maintain Twice, It's Alright: Merged Metadata Management in Deduplication File System with GogetaFS",
+                in Proceedings of  the 23rd USENIX Conference on File and Storage Technologies (<strong>FAST'25, CCF-A</strong>),
+                Santa Clara, CA, USA, February 25-27, 2025.
+            </li>
+            <li>Dingbang Liu, <strong>Xiangyu Zou*</strong>, Tao Lu, Philip Shilane, Wen Xia, Wenxuan Huang, Yanqi Pan, Hao Huang,
+                "Garbage Collection Does Not Only Collect Garbage: Piggybacking-Style Defragmentation for Deduplicated Backup Storage",
+                in Proceedings of the 20th ACM European Conference on Computer Systems (<strong>EuroSys'25, CCF-A</strong>),
+                Rotterdam, Netherlands, March 30 - April 3, 2025.
+            </li>
+            <li><strong>Xiangyu Zou</strong>, Wen Xia, Philip Shilane, Haijun Zhang and Xuan Wang,
+                "The design of a high-performance fine-grained deduplication framework for backup storage",
+                IEEE Transactions on Parallel and Distributed Systems (<strong>TPDS, CCF-A</strong>),
+                2025, in press.
+            </li>
+            <li>Hao Huang, Yanqi Pan, Wen Xia, <strong>Xiangyu Zou</strong>, Darong Yang, Liang Shi, and Hongwei Du,
+                "Simplifying and Accelerating NOR Flash I/O Stack for RAM-Restricted Microcontrollers",
+                in Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (<strong>ASPLOS’25, CCF-A</strong>),
+                Rotterdam, Netherlands, March 30–April 3, 2025.
+            </li>
+            <li>Yanqi Pan, Wen Xia, Yifeng Zhang, <strong>Xiangyu Zou</strong>, Hao Huang, Zhenhua Li, Chentao Wu,
+                "Fast and Synchronous Crash Consistency with Metadata Write-Once File System",
+                in Proceedings of the 19th USENIX Symposium on Operating Systems Design and Implementation (<strong>OSDI’25, CCF-A</strong>),
+                Boston, MA, USA, July 7-9, 2025.
+            </li>
+            <li>Donglei Wu, Weihao Yang, <strong>Xiangyu Zou</strong>, Jinda Jia, Dingwen Tao, Wen Xia*, and Zhihong Tian,
+                "BirdMoE: Reducing Communication Costs for Mixture-of-Experts Training Using Load-Aware Bi-random Quantization",
+                in Proceedings of the 62th ACM/IEEE Design Automation Conference (<strong>DAC’25, CCF-A</strong>),
+                San Francisco, CA, USA, July 22-16, 2025. pages:1-6.
+            </li>
+            <li>Jiarui Wang, <strong>Xiangyu Zou*</strong>, Wen Xia, Hao Hu, Xiangrui Meng, and Xudong Li,
+                "PDPH: A Performant Dynamic Perfect Hash Index with Rehashing Optimizations",
+                in Proceedings of the 2025 IEEE/ACM International Symposium on Quality of Service  (<strong>IWQoS '25, CCF-B</strong>),
+                Gold Coast, Australia, July 2-4, 2025.
+            </li>
+            <li>Haoliang Tan, Lisha Qin, <strong>Xiangyu Zou*</strong>, Gala Yadgar, Cai Deng, Zhaoquan Gu, Wen Xia,
+                "A Comprehensive Study of Data Reduction Methods on Docker Container Images",
+                in Proceedings of the 2025 IEEE/ACM International Symposium on Quality of Service (<strong>IWQoS '25, CCF-B</strong>),
+                Gold Coast, Australia, July 2-4, 2025.
+            </li>
+            <li>Han Xu, <strong>Xiangyu Zou*</strong>, Yunsheng Dong, Philip Shilane, Yanqi Pan, Cai Deng, and Wen Xia,
+                "Argus: A Precise and Efficient Resemblance Detection for Post-Deduplication Delta Compression",
+                ACM Transactions on Storage (<strong>TOS, CCF-A</strong>), in press.
+            </li>
+        </ol>
+        <li>2024</li>
+        <ol>
+            <li>Cai Deng, <strong>Xiangyu Zou</strong>, Qi Chen, Bo Tang, and Wen Xia,
+                "<a href="https://ieeexplore.ieee.org/document/10423913">The Design of a Lossless Deduplication Scheme to Eliminate Fine-grained Redundancy for JPEG Image Storage Systems</a>",
+                IEEE Transactions on Computers (<strong>TC, CCF-A</strong>),
+                Vol.73, No.5, February 2024, pages: 1385 - 1399.
+            </li>
+            <li>Yanqi Pan, Hao Huang, Yifeng Zhang, Wen Xia, <strong>Xiangyu Zou</strong>, and Cai Deng,
+                "<a href="https://ieeexplore.ieee.org/document/10466391/">Delaying Crash Consistency for Building A High-Performance Persistent Memory File System</a>",
+                IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (<strong>TCAD, CCF-A</strong>),
+                Vol. 43，No. 9, March 2024, Pages 2620-2634.
+            </li>
+            <li>Haoliang Tan, <strong>Xiangyu Zou</strong>, Binzhaoshuo Wan, Zhaoquan Gu, Wen Xia,
+                "<a href="https://ieeexplore.ieee.org/document/10533755">SuperDelta: Multiple Referenced Base Chunks Scheme for Fine-grained Deduplication Backup Storage System</a>",
+                in Proceedings of the 34th IEEE International Data Compression Conference (<strong>DCC'24, CCF-B</strong>).
+                March 2024, pages: 362-371.
+            </li>
+            <li>Yang Shi, <strong>Xiangyu Zou</strong>, Xinyu Chen, Sian Jin, Dingwen Tao, Cai Deng, Yufan Chen, Wen Xia,
+                "<a href="https://ieeexplore.ieee.org/document/10533743/">Machete: An Efficient Lossy Floating-Point Compressor Designed for Time Series Databases</a>",
+                in Proceedings of the 34th IEEE International Data Compression Conference (<strong>DCC'24, CCF-B</strong>).
+                March 2024, pages:532-541.
+            </li>
+            <li>Haoliang Tan, Wen Xia, <strong>Xiangyu Zou</strong>, Cai Deng, Qing Liao, Zhaoquan Gu,
+                "<a href="https://dl.acm.org/doi/10.1145/3664817">The Design of Fast Delta Encoding for Delta Compression Based Storage Systems</a>",
+                ACM Transactions on Storage (<strong>TOS, CCF-A</strong>),
+                Vol.1, No.1, May 2024, pages: 1-14.
+            </li>
+            <li>Yunsheng Dong, Boju Chen, Yanqi Pan, <strong>Xiangyu Zou</strong>, Wen Xia,
+                "<a href="https://dl.acm.org/doi/10.1145/3698038.3698507">H2C-Dedup: Reducing I/O and GC Amplification for QLC SSDs from the Deduplication Metadata Perspective</a>",
+                in Proceedings of the 15th ACM Symposium on Cloud Computing (<strong>SoCC'24, CCF-B</strong>),
+                Redmond, WA, USA, November 20-22, 2024, pages:704-719.
+            </li>
+            <li>Donglei Wu, Weihao Yang, <strong>Xiangyu Zou</strong>, Dingwen Tal, Shiyi Li, Wen Xia, Binxing Fang,
+                "<a href="https://ieeexplore.ieee.org/document/10643365/">BIRD+: Design of a Lightweight Communication Compressor for Resource-Constrained Distribution Learning Platforms</a>",
+                IEEE Transactions on Parallel and Distributed Systems (<strong>TPDS, CCF-A</strong>),
+                Vol.35, No.11, November 2024, pages:2193-2207.
+            </li>
+            <li>Lisha Qin, Haoliang Tan, <strong>Xiangyu Zou</strong>, Wenhao Ou, Yan Wei, Rubing Huang, and Wen Xia,
+                "MiDedup: A Restore-friendly Deduplication Method on Docker Image Storage Systems",
+                in Proceedings of the 20th Annual IFIP International Conference on Network and Parallel Computing (<strong>NPC'24, CCF-C</strong>),
+                Haikou ,December 7-8, 2024.
+            </li>
+        </ol>
+        <li>2023</li>
+        <ol>
+            <li>Yanqi Pan, Yifeng Zhang, Wen Xia, <strong>Xiangyu Zou</strong> and Cai Deng.
+                "<a href="https://ieeexplore.ieee.org/document/10247940/">HUNTER: Releasing Persistent Memory Write Performance with A Novel PM-DRAM Collaboration Architecture</a>",
+                in Proceedings of the 60th ACM/IEEE Design Automation Conference (<strong>DAC, CCF-A</strong>),
+                San Francisco, CA, USA, Jun. 2023.
+            </li>
+            <li>Wenkai Liang, Hao Hu, <strong>Xiangyu Zou</strong>, Wen Xia and Yanqi Pan.
+                "<a href="https://ieeexplore.ieee.org/document/10247971">DRPTM: A Decoupled Read-efficient High-scalable Persistent Transactional Memory</a>",
+                in Proceedings of the 60th ACM/IEEE Design Automation Conference (<strong>DAC, CCF-A</strong>),
+                San Francisco, CA, USA, Jun. 2023.
+            </li>
+            <li>Wen Xia, Lifeng Pu, <strong>Xiangyu Zou*</strong>, Philip Shilane, Shiyi Li, Haijun Zhang, and Xuan Wang.
+                "<a href="https://dl.acm.org/doi/10.1145/3584663">The Design of Fast and Lightweight Resemblance Detection for Efficient Post-Deduplication Delta Compression</a>",
+                ACM Transactions on Storage (<strong>TOS, CCF-A</strong>),
+                Vol. 19, No. 3, pp. 22:1-22:30, Jun. 2023.
+            </li>
+            <li>Haoyu Jin, Donglei Wu, Shuyu Zhang, <strong>Xiangyu Zou</strong>, Sian Jin, Dingwen Tao, Qing Liao, and Wen Xia,
+                "<a href="https://ieeexplore.ieee.org/abstract/document/9693219">Design of a Quantization-Based DNN Delta Compression Framework for Model Snapshots and Federated Learning</a>",
+                IEEE Transactions on Parallel and Distributed Systems (<strong>TPDS, CCF-A</strong>),
+                Vol. 34, no. 3, pp. 923-937, Jan. 2023.
+            </li>
+            <li>Jiansheng Qiu, Yanqi Pan, Wen Xia, Xiaojia Huang, Wenjun Wu, <strong>Xiangyu Zou</strong>, Shiyi Li, and Yu Hua,
+                "<a href="https://www.usenix.org/conference/atc23/presentation/qiu-jiansheng">Light-Dedup: A Light-weight Inline Deduplication Framework for Non-Volatile Memory File Systems</a>",
+                in Proceedings of the 2023 USENIX Annual Technical Conference (<strong>USENIX ATC'23, CCF-A</strong>),
+                Boston, MA, USA, July 10-12, 2023, pages:101-116.
+            </li>
+            <li>Donglei Wu, Weihao Yang, Haoyu Jin, <strong>Xiangyu Zou</strong>, Wen Xia, and Binxing Fang,
+                "<a href="https://ieeexplore.ieee.org/document/10226409">FedComp: A Federated Learning Compression Framework for Resource-Constrained Edge Computing Devicess</a>",
+                IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (<strong>TCAD, CCF-A</strong>),
+                Vol.43, No.1, September 2023, pages:230-243.
+            </li>
+            <li>Donglei Wu, Weihao Yang, <strong>Xiangyu Zou</strong>, Wen Xia, Shiyi Li, Zhenbo Hu, Weizhe Zhang, and Binxing Fang,
+                "<a href="https://dl.acm.org/doi/10.1145/3617688">Smart-DNN+: a Memory-Efficient Neural Networks Compression Framework for the Model Inference</a>",
+                ACM Transactions on Architecture and Code Optimization (<strong>TACO, CCF-A</strong>),
+                Vol.20, No.4, September 2023 pages:49:1-49:24.
+            </li>
+            <li>Donglei Wu, Weihao Yang, Cai Deng, Xiangyu Zou, Shiyi Li* and Wen Xia,
+                "<a href="https://ieeexplore.ieee.org/document/10361008">BIRD: A Lightweight and Adaptive Compressor for Communication-Efficient Distributed Learning Using Tensor-wise Bi-Random Sampling</a>",
+                in Proceedings of the 41th IEEE International Conference on Computer Design (<strong>ICCD, CCF-B</strong>),
+                Washington DC, USA, Nov. 6-8, 2023. pages:605-613.
+            </li>
+        </ol>
+        <li>2022</li>
+        <ol>
+            <li>Jingsong Yuan, <strong>Xiangyu Zou</strong>, Han Xu, Zhichao Cao, Shiyi Li, Wen Xia, Peng Wang and Li Chen,
+                "<a href="https://ieeexplore.ieee.org/document/9978503">A Focused Garbage Collection Approach for Primary Deduplicated Storage with Low Memory Overhead</a>",
+                in Proceedings of the 40th IEEE International Conference on Computer Design (<strong>ICCD, CCF-B</strong>),
+                Lake Tahoe, USA, Otc. 2022.
+            </li>
+            <li>Binzhaoshuo Wan, Lifeng Pu, <strong>Xiangyu Zou</strong>, Shiyi Li, Wen Xia and Peng Wang,
+                "<a href="https://ieeexplore.ieee.org/document/9978509">SuperCDC: A Hybrid Design of High-performance Content-Defined Chunking for Fast Deduplication</a>",
+                in Proceedings of the 40th IEEE International Conference on Computer Design (<strong>ICCD, CCF-B</strong>),
+                Lake Tahoe, USA, Otc. 2022.
+            </li>
+            <li><strong>Xiangyu Zou</strong>, Wen Xia, Philip Shilane, Haijun Zhang and Xuan Wang,
+                "<a href="https://www.usenix.org/conference/atc22/presentation/zou">Building a High-performance Fine-grained Deduplication Framework for Backup Storage with High Deduplication Ratio</a>",
+                in Proceedings of the 2022 USENIX Annual Technical Conference (<strong>USENIX ATC'22, CCF-A</strong>),
+                Carlsbad, CA, USA, Jul. 2022.
+            </li>
+            <li>Wen Xia, Can Wei, Zhenhua Li, Xuan Wang, and <strong>Xiangyu Zou</strong>,
+                "<a href="https://ieeexplore.ieee.org/abstract/document/9693219">NetSync: a Network Adaptive and Deduplication-Inspired Delta Synchronization Approach for Cloud Storage Services</a>",
+                IEEE Transactions on Parallel and Distributed Systems (<strong>TPDS, CCF-A</strong>),
+                vol. 33, no. 19, pp. 2554-2570, Oct. 2022.
+            </li>
+            <li><strong>Xiangyu Zou</strong>, Jingsong Yuan, Philip Shilane, Wen Xia, Haijun Zhang, and Xuan Wang,
+                "<a href="https://dl.acm.org/doi/10.1145/3507921">From Hyper-Dimensional Structure to Linear Structure: Maintaining Deduplicated Data's Locality</a>",
+                ACM Transactions on Storage (<strong>TOS, CCF-A</strong>),
+                vol. 18(3), no. 25, pp.1-28, Aug. 2022.
+            </li>
+            <li>Donglei Wu, <strong>Xiangyu Zou</strong>, Shuyu Zhang, Haoyu Jin, Wen Xia, and Binxing Fang
+                "<a href="https://aaai-2022.virtualchair.net/poster_aaai5753">SmartIdx: Reducing Communication Cost in Federated Learning by Exploiting the CNNs Structures</a>"
+                in Proceedings of the 36th AAAI Conference on Artificial Intelligence (<strong>AAAI '22, CCF-A</strong>),
+                Vancouver, Canada, Feb. 2022.
+            </li>
+            <li>Cai Deng, Qi Chen, <strong>Xiangyu Zou</strong>, Eric Xu, Bo Tang and Wen Xia,
+                "<a href="https://ieeexplore.ieee.org/document/9835287">imDedup: a Lossless Deduplication Scheme to Eliminate Fine-grained Redundancy among Images</a>,"
+                in Proceedings of the 38th IEEE International Conference on Data Engineering (<strong>ICDE '22, CCF-A</strong>),
+                Kuala Lumpur, Malaysia, May. 2022.
+            </li>
+        </ol>
+        <li>2021</li>
+        <ol>
+            <li>Shuyu Zhang, Donglei Wu, Haoyu Jin, <strong>Xiangyu Zou</strong>, Wen Xia and Xiaojia Huang,
+                "<a href="https://ieeexplore.ieee.org/document/9643728">QD-Compressor: a Quantization-based Delta Compression Framework for Deep Neural Networks</a>,"
+                in Proceedings of the 39th IEEE International Conference on Computer Design (<strong>ICCD '21, CCF-B</strong>),
+                Oct. 2021.
+            </li>
+            <li>Zhenbo Hu, <strong>Xiangyu Zou</strong>, Wen Xia, Yuhong Zhao, Weizhe Zhang and Donglei Wu,
+                "<a href="https://ieeexplore.ieee.org/document/9643723">Smart-DNN: Efficiently Reducing the Memory Requirements of Running Deep Neural Networks on Resource-constrained Platforms</a>,"
+                in Proceedings of the 39th IEEE International Conference on Computer Design (<strong>ICCD '21, CCF-B</strong>),
+                Oct. 2021.
+            </li>
+            <li><strong>Xiangyu Zou</strong>, Cai Deng, Wen Xia, Philip Shilane, Haoliang Tan, Haijun Zhang, and Xuan Wang,
+                "<a href="https://ieeexplore.ieee.org/document/9458911">Odess: Speeding up Resemblance Detection for Redundancy Elimination by Fast Content-Defined Sampling</a>,"
+                in Proceedings of the 37th IEEE International Conference on Data Engineering (<strong>ICDE '21, CCF-A</strong>),
+                Chania, Greece, Apr. 2021.
+            </li>
+            <li><strong>Xiangyu Zou</strong>, Jingsong Yuan, Philip Shilane, Wen Xia, Haijun Zhang, and Xuan Wang,
+                "<a href="https://www.usenix.org/conference/fast21/presentation/zou">The Dilemma between Deduplication and Locality: Can Both be Achieved?</a>,"
+                in Proceedings of the 19th USENIX Conference on File and Storage Technologies (<strong>FAST '21, CCF-A</strong>),
+                Santa Clara, CA, USA, Feb. 2021.
+            </li>
+        </ol>
+        <li>2020</li>
+        <ol>
+            <li>Haoliang Tan, Zhiyuan Zhang, <strong>Xiangyu Zou</strong>, Qing Liao, and Wen Xia,
+                "<a href="https://ieeexplore.ieee.org/document/9229609">Exploring the Potential of Fast Delta Encoding: Marching to a Higher Compression Ratio</a>,"
+                in Proceedings of IEEE International Conference on Cluster Computing (<strong>Cluster '20, CCF-B</strong>),
+                Kobe, Japan, Sep. 2020.
+            </li>
+            <li>Zhenbo Hu, <strong>Xiangyu Zou</strong>, Wen Xia, Sian Jin, Dingwen Tao, Yang Liu, Weizhe Zhang, Zheng Zhang,
+                "<a href="https://dl.acm.org/doi/abs/10.1145/3404397.3404408">Delta-DNN: Efficiently Compressing Deep Neural Networks via Exploiting Floats Similarity</a>,"
+                in Proceedings of 49th International Conference on Parallel Processing (<strong>ICPP '20, CCF-B</strong>),
+                Edmonton, AB, Canada, Aug. 2020.
+            </li>
+            <li>Lingfeng Xiang, Yuan He, Wen Xia, Hong Jiang, Zhenhua Li, Xuan Wang, and <strong>Xiangyu Zou</strong>,
+                "<a href="https://storageconference.us/2020/index.html">Dsync: a Lightweight Delta Synchronization Approach for Cloud Storage Services</a>,"
+                in Proceedings of the 36th International Conference on Massive Storage Systems and Technology (<strong>MSST '20, CCF-B</strong>),
+                Santa Clara, CA, USA, Oct. 2020.
+            </li>
+            <li>Tao Lu, Wen Xia, <strong>Xiangyu Zou</strong>, and Qianbin Xia,
+                "<a href="https://www.usenix.org/conference/hotedge20/presentation/lu">Adaptively Compressing IoT Data on the Resource-constrained Edge</a>,"
+                in Proceedings of the 3rd USENIX Workshop on Hot Topics in Edge Computing (<strong>HotEdge '20</strong>),
+                Boston, MA, USA, Jul. 2020.
+            </li>
+            <li>Wen Xia, <strong>Xiangyu Zou</strong>, Yukun Zhou, Hong Jiang, Chuanyi Liu, Dan Feng, Yu Hua, Yuchong Hu, and Yucheng Zhang,
+                "<a href="https://ieeexplore.ieee.org/document/9055082">The Design of Fast Content-Defined Chunking for Data Deduplication based Storage Systems</a>,"
+                IEEE Transactions on Parallel and Distributed Systems (<strong>TPDS, CCF-A</strong>),
+                vol. 31, no. 9, pp. 2017-2031, Sept. 2020.
+            </li>
+            <li><strong>Xiangyu Zou</strong>, Tao Lu, Wen Xia, Xuan Wang, Weizhe Zhang, Haijun Zhang, Sheng Di, Dingwen Tao and Franck Cappello,
+                "<a href="https://ieeexplore.ieee.org/document/8989806">Performance Optimization for Relative-Error-Bounded Lossy Compression on Scientific Data</a>,"
+                IEEE Transactions on Parallel and Distributed Systems (<strong>TPDS, CCF-A</strong>),
+                vol.31, no.7, pp.1665-1680, Jul. 2020.
+            </li>
+        </ol>
+        <li>2019</li>
+        <ol>
+            <li><strong>Xiangyu Zou</strong>, Tao Lu, Sheng Di, Dingwen Tao, Wen Xia, Xuan Wang, Weizhe Zhang and Qing Liao,
+                "<a href="https://ieeexplore.ieee.org/abstract/document/8855561">Accelerating Lossy Compression on HPC datasets via Partitioning Computation for Parallel Processing</a>,"
+                in Proceedings of the 21st IEEE International Conference on High Performance Computing and Communication (<strong>HPCC '19, CCF-C</strong>), Zhangjiajie, China, August. 2019.
+            </li>
+            <li><strong>Xiangyu Zou</strong>, Tao Lu, Wen Xia, Xuan Wang, Weizhe Zhang, Sheng Di, Dingwen Tao and Franck Cappello,
+                "<a href="https://ieeexplore.ieee.org/document/8890088">Accelerating Relative-error Bounded Lossy Compression for HPC datasets with Precomputation-Based Mechanisms</a>,"
+                in Proceedings of the 35th International Conference on Massive Storage Systems and Technology (<strong>MSST '19, CCF-B</strong>),
+                Santa Clara, CA, USA, May. 2019.
+            </li>
+            <li>Wen Xia, Dan Feng, Hong Jiang, Yucheng Zhang, Victor Chang and <strong>Xiangyu Zou</strong>
+                "<a href="https://www.sciencedirect.com/science/article/pii/S0167739X18320053">Accelerating Content-Defined-Chunking based Data Deduplication by Exploiting Parallelism</a>,"
+                Future Generation Computer Systems (<strong>FGCS, CCF-C</strong>), Vol.98:406-418, 2019.
+            </li>
+        </ol>
+    </ul>
+
+<!--    <h4>Awards</h4>-->
+<!--    <ul>-->
+<!--        <li>2022 哈尔滨工业大学 计算学部 学生优秀论文奖</li>-->
+<!--        <li>2021 博士研究生国家奖学金</li>-->
+<!--        <li>2020 哈尔滨工业大学 计算学部 学生优秀论文奖</li>-->
+<!--        <li>2019-2021 哈尔滨工业大学(深圳) 计算应用研究中心 个人科研奖</li>-->
+<!--        <li>2019 阿里云-中国计算机学会存储专委会 优秀论文奖</li>-->
+<!--    </ul>-->
+
+</div>

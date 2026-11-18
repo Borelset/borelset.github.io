@@ -1,0 +1,11 @@
+{% assign affiliation_profile = site.data.profile %}
+<div class="affiliation">
+  <a class="institution" href="{{ affiliation_profile.institution_url }}">{{ affiliation_profile.institution | escape }} <span aria-hidden="true">↗</span></a>
+  {% if affiliation_profile.affiliations %}
+  <ul class="affiliation-units" aria-label="Academic affiliations">
+    {% for unit in affiliation_profile.affiliations %}
+    <li><a href="{{ unit.url }}">{{ unit.name | escape }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>

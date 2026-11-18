@@ -1,0 +1,1405 @@
+[
+  {
+    "id": "pub-2027-b17549bc5d",
+    "year": 2027,
+    "title": "Improving Compression Ratio of Lossy Compression for HPC via Modeling-Based Arithmetic Coding",
+    "authors": "Zhichao Yang, Xiangyu Zou, Wen Xia, Boou Jiang",
+    "venue": "APPT",
+    "citation": "Advanced Parallel Processing Technologies (APPT 2026), LNCS 16693, pp. 531–546. Proceedings year 2027; published online August 2026.",
+    "url": "https://doi.org/10.1007/978-981-92-4805-6_35",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1007/978-981-92-4805-6_35"
+      }
+    ],
+    "bibtex": "@inproceedings{Yang2027b17549,\n  title = {Improving Compression Ratio of Lossy Compression for HPC via Modeling-Based Arithmetic Coding},\n  author = {Zhichao Yang and Xiangyu Zou and Wen Xia and Boou Jiang},\n  booktitle = {Advanced Parallel Processing Technologies},\n  year = {2027},\n  doi = {10.1007/978-981-92-4805-6_35},\n  pages = {531--546}\n}\n",
+    "source_url": "https://doi.org/10.1007/978-981-92-4805-6_35",
+    "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301. Springer recommended citation uses 2027; the chapter was already published online on 2026-08-24. Not a second copy of its DCC 2026 one-page abstract.",
+    "topics": [
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2026-0ba15fe791",
+    "year": 2026,
+    "title": "Deduplication can Make File Systems Faster",
+    "authors": "Yanqi Pan, Wen Xia, Erci Xu, Hao Huang, Xiangyu Zou, Shiyi Li",
+    "venue": "TOS",
+    "citation": "ACM Transactions on Storage 22(4), Article 45, pp. 1–31, 2026.",
+    "url": "https://doi.org/10.1145/3806054",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1145/3806054"
+      }
+    ],
+    "bibtex": "@article{Pan20260ba15f,\n  title = {Deduplication can Make File Systems Faster},\n  author = {Yanqi Pan and Wen Xia and Erci Xu and Hao Huang and Xiangyu Zou and Shiyi Li},\n  journal = {ACM Transactions on Storage},\n  year = {2026},\n  doi = {10.1145/3806054},\n  volume = {22},\n  number = {4},\n  pages = {1--31}\n}\n",
+    "source_url": "https://doi.org/10.1145/3806054",
+    "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301.",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2026-c734e12381",
+    "year": 2026,
+    "title": "Improving the Restore Performance of Fine-Grained Deduplication on Docker Container Image Storage",
+    "authors": "Haoliang Tan, Wenhao Ou, Xiangyu Zou, Lisha Qin, Cai Deng, Zhaoquan Gu, Wen Xia",
+    "venue": "TPDS",
+    "citation": "IEEE Transactions on Parallel and Distributed Systems 37(6), pp. 1247–1264, 2026.",
+    "url": "https://doi.org/10.1109/tpds.2026.3678624",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/tpds.2026.3678624"
+      }
+    ],
+    "bibtex": "@article{Tan2026c734e1,\n  title = {Improving the Restore Performance of Fine-Grained Deduplication on Docker Container Image Storage},\n  author = {Haoliang Tan and Wenhao Ou and Xiangyu Zou and Lisha Qin and Cai Deng and Zhaoquan Gu and Wen Xia},\n  journal = {IEEE Transactions on Parallel and Distributed Systems},\n  year = {2026},\n  doi = {10.1109/tpds.2026.3678624},\n  volume = {37},\n  number = {6},\n  pages = {1247--1264}\n}\n",
+    "source_url": "https://doi.org/10.1109/tpds.2026.3678624",
+    "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301.",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2026-333de8c068",
+    "year": 2026,
+    "title": "ZipFloat: An Ultra-fast and Lossless Floating-Point Compressor for LLM Inference Systems",
+    "authors": "Shihao Wang, Xiangyu Zou, Wen Xia, Hao Hu",
+    "venue": "DAC",
+    "citation": "63rd ACM/IEEE Design Automation Conference (DAC), Article 376, pp. 1–7, 2026.",
+    "url": "https://doi.org/10.1145/3770743.3804017",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1145/3770743.3804017"
+      }
+    ],
+    "bibtex": "@inproceedings{Wang2026333de8,\n  title = {ZipFloat: An Ultra-fast and Lossless Floating-Point Compressor for LLM Inference Systems},\n  author = {Shihao Wang and Xiangyu Zou and Wen Xia and Hao Hu},\n  booktitle = {Proceedings of the 63rd ACM/IEEE Design Automation Conference},\n  year = {2026},\n  doi = {10.1145/3770743.3804017},\n  pages = {1--7}\n}\n",
+    "source_url": "https://doi.org/10.1145/3770743.3804017",
+    "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301.",
+    "topics": [
+      "ai-systems",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2026-ab92ade015",
+    "year": 2026,
+    "title": "Improving Compression Ratio of Lossy Compression on HPC Datasets via Modeling-Based Arithmetic Coding",
+    "authors": "Zhichao Yang, Xiangyu Zou, Shihao Wang, Hao Hu, Wen Xia",
+    "venue": "DCC",
+    "citation": "Data Compression Conference (DCC), p. 480, 2026.",
+    "url": "https://doi.org/10.1109/dcc66757.2026.00107",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/dcc66757.2026.00107"
+      }
+    ],
+    "bibtex": "@inproceedings{Yang2026ab92ad,\n  title = {Improving Compression Ratio of Lossy Compression on HPC Datasets via Modeling-Based Arithmetic Coding},\n  author = {Zhichao Yang and Xiangyu Zou and Shihao Wang and Hao Hu and Wen Xia},\n  booktitle = {2026 Data Compression Conference (DCC)},\n  year = {2026},\n  doi = {10.1109/dcc66757.2026.00107},\n  pages = {480--480}\n}\n",
+    "source_url": "https://doi.org/10.1109/dcc66757.2026.00107",
+    "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301.",
+    "topics": [
+      "data-compression"
+    ],
+    "format": "poster"
+  },
+  {
+    "id": "pub-2026-6b4be1d259",
+    "year": 2026,
+    "title": "CuCM: A GPU-Powered Context-Mixing Compressor for Archival Storage",
+    "authors": "Zhichao Yang, Xiangyu Zou, Shihao Wang, Hao Hu, Wen Xia",
+    "venue": "DCC",
+    "citation": "Data Compression Conference (DCC), p. 481, 2026.",
+    "url": "https://doi.org/10.1109/dcc66757.2026.00108",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/dcc66757.2026.00108"
+      }
+    ],
+    "bibtex": "@inproceedings{Yang20266b4be1,\n  title = {CuCM: A GPU-Powered Context-Mixing Compressor for Archival Storage},\n  author = {Zhichao Yang and Xiangyu Zou and Shihao Wang and Hao Hu and Wen Xia},\n  booktitle = {2026 Data Compression Conference (DCC)},\n  year = {2026},\n  doi = {10.1109/dcc66757.2026.00108},\n  pages = {481--481}\n}\n",
+    "source_url": "https://doi.org/10.1109/dcc66757.2026.00108",
+    "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301.",
+    "topics": [
+      "storage-systems",
+      "data-compression"
+    ],
+    "format": "poster"
+  },
+  {
+    "id": "pub-2026-c99484620b",
+    "year": 2026,
+    "title": "Once Rolling Hashing is Enough: Exploiting Rolling Hash Reuse in Delta Compression",
+    "authors": "Haoliang Tan, Wenhao Ou, Xiangyu Zou, Cai Deng, Yanqi Pan, Hao Huang, Zhaoquan Gu, Wen Xia",
+    "venue": "EuroSys",
+    "citation": "21st European Conference on Computer Systems (EuroSys), pp. 919–933, 2026.",
+    "url": "https://doi.org/10.1145/3767295.3803596",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1145/3767295.3803596"
+      }
+    ],
+    "bibtex": "@inproceedings{Tan2026c99484,\n  title = {Once Rolling Hashing is Enough: Exploiting Rolling Hash Reuse in Delta Compression},\n  author = {Haoliang Tan and Wenhao Ou and Xiangyu Zou and Cai Deng and Yanqi Pan and Hao Huang and Zhaoquan Gu and Wen Xia},\n  booktitle = {Proceedings of the 21st European Conference on Computer Systems},\n  year = {2026},\n  doi = {10.1145/3767295.3803596},\n  pages = {919--933}\n}\n",
+    "source_url": "https://doi.org/10.1145/3767295.3803596",
+    "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301.",
+    "topics": [
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2026-a9d08f99ea",
+    "year": 2026,
+    "title": "A High-Performance Persistent Transactional Memory System via Cooperative Concurrency Control",
+    "authors": "Hao Hu, Xinrui Zheng, Yizou Chen, Xiangyu Zou, Erci Xu, Hongpeng Wang, Wen Xia",
+    "venue": "HPDC",
+    "citation": "35th International Symposium on High-Performance Parallel and Distributed Computing (HPDC), pp. 265–278, 2026.",
+    "url": "https://doi.org/10.1145/3806645.3807586",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1145/3806645.3807586"
+      }
+    ],
+    "bibtex": "@inproceedings{Hu2026a9d08f,\n  title = {A High-Performance Persistent Transactional Memory System via Cooperative Concurrency Control},\n  author = {Hao Hu and Xinrui Zheng and Yizou Chen and Xiangyu Zou and Erci Xu and Hongpeng Wang and Wen Xia},\n  booktitle = {Proceedings of the 35th International Symposium on High-Performance Parallel and Distributed Computing},\n  year = {2026},\n  doi = {10.1145/3806645.3807586},\n  pages = {265--278}\n}\n",
+    "source_url": "https://doi.org/10.1145/3806645.3807586",
+    "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301.",
+    "topics": [
+      "memory-flash"
+    ]
+  },
+  {
+    "id": "pub-2026-5d29ce8aad",
+    "year": 2026,
+    "title": "The Enduring Potential of Locality: Efficient Routing for Fine-Grained Cluster Deduplication",
+    "authors": "Cai Deng, Xiangyu Zou, Philip Shilane, Haoliang Tan, Shiyi Li, Wen Xia",
+    "venue": "IWQoS",
+    "citation": "IEEE/ACM International Symposium on Quality of Service (IWQoS), pp. 1–10, 2026.",
+    "url": "https://doi.org/10.1109/iwqos70441.2026.11661042",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/iwqos70441.2026.11661042"
+      }
+    ],
+    "bibtex": "@inproceedings{Deng20265d29ce,\n  title = {The Enduring Potential of Locality: Efficient Routing for Fine-Grained Cluster Deduplication},\n  author = {Cai Deng and Xiangyu Zou and Philip Shilane and Haoliang Tan and Shiyi Li and Wen Xia},\n  booktitle = {2026 IEEE/ACM International Symposium on Quality of Service (IWQoS)},\n  year = {2026},\n  doi = {10.1109/iwqos70441.2026.11661042},\n  pages = {1--10}\n}\n",
+    "source_url": "https://doi.org/10.1109/iwqos70441.2026.11661042",
+    "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301.",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2026-ab0a4cec1c",
+    "year": 2026,
+    "title": "SuperDelta: Improving the Compression Ratio in the Fine-grained Deduplication Storage Systems",
+    "authors": "Haoliang Tan, Xiangyu Zou, Cai Deng, Zhaoquan Gu, Wen Xia, Xiangrui Meng, Xudong Li",
+    "venue": "TOS",
+    "citation": "ACM Transactions on Storage. Published online November 6, 2026.",
+    "url": "https://doi.org/10.1145/3859484",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1145/3859484"
+      }
+    ],
+    "bibtex": "@article{Tan2026ab0a4c,\n  title = {SuperDelta: Improving the Compression Ratio in the Fine-grained Deduplication Storage Systems},\n  author = {Haoliang Tan and Xiangyu Zou and Cai Deng and Zhaoquan Gu and Wen Xia and Xiangrui Meng and Xudong Li},\n  journal = {ACM Transactions on Storage},\n  year = {2026},\n  doi = {10.1145/3859484}\n}\n",
+    "source_url": "https://doi.org/10.1145/3859484",
+    "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301. No volume/issue/page assigned yet; this is the journal article, distinct from the DCC 2024 conference paper.",
+    "topics": [
+      "storage-systems",
+      "deduplication",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2026-f0bdd6be38",
+    "year": 2026,
+    "title": "NF2FS: A High-Performance and Long-Lifespan NOR Flash File System",
+    "authors": "Hao Huang, Junyang Wang, Yanqi Pan, Wen Xia, Xiangyu Zou, Darong Yang, Liang Shi, Hongwei Du",
+    "venue": "TCAD",
+    "citation": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems. Early access, 2026.",
+    "url": "https://doi.org/10.1109/tcad.2026.3744529",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/tcad.2026.3744529"
+      }
+    ],
+    "bibtex": "@article{Huang2026f0bdd6,\n  title = {NF2FS: A High-Performance and Long-Lifespan NOR Flash File System},\n  author = {Hao Huang and Junyang Wang and Yanqi Pan and Wen Xia and Xiangyu Zou and Darong Yang and Liang Shi and Hongwei Du},\n  journal = {IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},\n  year = {2026},\n  doi = {10.1109/tcad.2026.3744529}\n}\n",
+    "source_url": "https://doi.org/10.1109/tcad.2026.3744529",
+    "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301. No volume/issue yet; placeholder page range 1–1 omitted.",
+    "topics": [
+      "storage-systems",
+      "memory-flash"
+    ]
+  },
+  {
+    "id": "pub-2026-020da803e1",
+    "year": 2026,
+    "title": "Towards Condensed and Efficient Read-Only File System via Sort-Enhanced Compression",
+    "authors": "Hao Huang, Yifeng Zhang, Yanqi Pan, Wen Xia, Xiangyu Zou, Darong Yang, Jubin Zhong, Hua Liao",
+    "venue": "FAST",
+    "citation": "24th USENIX Conference on File and Storage Technologies (FAST), pp. 35–51, 2026.",
+    "url": "https://www.usenix.org/conference/fast26/presentation/huang",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.usenix.org/conference/fast26/presentation/huang"
+      },
+      {
+        "label": "PDF",
+        "url": "https://www.usenix.org/system/files/fast26-huang.pdf"
+      }
+    ],
+    "bibtex": "",
+    "source_url": "https://www.usenix.org/conference/fast26/presentation/huang",
+    "evidence_note": "Official USENIX proceedings and author affiliations checked 2026-11-18.",
+    "topics": [
+      "storage-systems",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2026-4e80be6069",
+    "year": 2026,
+    "title": "RESA: Bringing Back What Sparse Attention Ignores with Residual Estimation",
+    "authors": "Weihao Yang, Hao Huang, Ningke Li, Shihao Wang, Darong Yang, Yanqi Pan, Wen Xia, Shiyi Li, Xiangyu Zou",
+    "venue": "ICLR",
+    "citation": "International Conference on Learning Representations (ICLR), pp. 85544–85564, 2026.",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/89bd6217280d1417370c89ee493ba3c7-Abstract-Conference.html",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/89bd6217280d1417370c89ee493ba3c7-Abstract-Conference.html"
+      },
+      {
+        "label": "PDF",
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/89bd6217280d1417370c89ee493ba3c7-Paper-Conference.pdf"
+      }
+    ],
+    "bibtex": "@inproceedings{ICLR2026_89bd6217,\n author = {Yang, Weihao and Huang, Hao and Li, Ningke and Wang, Shihao and Yang, Darong and Pan, Yanqi and Xia, Wen and Li, Shiyi and Zou, Xiangyu},\n booktitle = {International Conference on Learning Representations},\n editor = {C. Vondrick and B. Hariharan and C. Raffel and L. Pinto and D. Yang and A. Faust},\n pages = {85544--85564},\n title = {RESA: Bringing Back What Sparse Attention Ignores with Residual Estimation},\n url = {https://proceedings.iclr.cc/paper_files/paper/2026/file/89bd6217280d1417370c89ee493ba3c7-Paper-Conference.pdf},\n volume = {2026},\n year = {2026}\n}\n",
+    "source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/89bd6217280d1417370c89ee493ba3c7-Abstract-Conference.html",
+    "evidence_note": "Official ICLR 2026 proceedings and BibTeX checked 2026-11-18; same research group.",
+    "topics": [
+      "ai-systems"
+    ]
+  },
+  {
+    "id": "pub-2026-8f3d220bf4",
+    "year": 2026,
+    "title": "ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation",
+    "authors": "Shihao Wang, Jiahao Chen, Yanqi Pan, Hao Huang, Yichen Hao, Xiangyu Zou, Wen Xia, Chongyang Qiu, Wentao Zhang, Pengfei Wang",
+    "venue": "ICML",
+    "citation": "43rd International Conference on Machine Learning (ICML), PMLR 306, pp. 125415–125434, 2026.",
+    "url": "https://proceedings.mlr.press/v306/wang26y.html",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://proceedings.mlr.press/v306/wang26y.html"
+      },
+      {
+        "label": "PDF",
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26y/wang26y.pdf"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2602.02579"
+      }
+    ],
+    "bibtex": "@InProceedings{pmlr-v306-wang26y,\n  title = \t {{P}rophet{KV}: User-Query-Driven Selective Recomputation for Efficient {KV} Cache Reuse in Retrieval-Augmented Generation},\n  author =       {Wang, Shihao and Chen, Jiahao and Pan, Yanqi and Huang, Hao and Hao, Yichen and Zou, Xiangyu and Xia, Wen and Qiu, Chongyang and Zhang, Wentao and Wang, Pengfei},\n  booktitle = \t {Proceedings of the 43rd International Conference on Machine Learning},\n  pages = \t {125415--125434},\n  year = \t {2026},\n  editor = \t {Zhang, Tong and Dudik, Miroslav and Jaggi, Martin and Agarwal, Alekh and Li, Sharon and Schuurmans, Dale and Zhu, Jerry and Berkenkamp, Felix and Dong, Hanze and Bietti, Alberto},\n  volume = \t {306},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {06--11 Jul},\n  publisher =    {PMLR},\n  pdf = \t {https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26y/wang26y.pdf},\n  url = \t {https://proceedings.mlr.press/v306/wang26y.html}\n}\n",
+    "source_url": "https://proceedings.mlr.press/v306/wang26y.html",
+    "evidence_note": "Official PMLR proceedings checked 2026-11-18. Uses final author order, not the different arXiv author order; arXiv version is not counted separately.",
+    "topics": [
+      "ai-systems"
+    ]
+  },
+  {
+    "id": "pub-2026-4e8fd8657c",
+    "year": 2026,
+    "title": "BoundSim: Accelerating Resemblance Detection via Boundary-Aware Feature Extraction for Post-Deduplication Delta Compression",
+    "authors": "Boju Chen, Cai Deng, Yilin Ma, Xiangyu Zou, Wen Xia",
+    "venue": "NAS",
+    "award": "Best Paper Award",
+    "citation": "18th IEEE International Conference on Networking, Architecture and Storage (NAS), Wuhan, China, October 30–November 1, 2026.",
+    "url": "",
+    "links": [
+      {
+        "label": "Award",
+        "url": "https://cybersecurity.hitsz.edu.cn/info/1016/2005.htm"
+      }
+    ],
+    "bibtex": "",
+    "source_url": "https://cybersecurity.hitsz.edu.cn/info/1016/2005.htm",
+    "evidence_note": "HIT Shenzhen official news dated 2026-11-03; complete author list verified from the accompanying IEEE award certificate. News identifies Xiangyu Zou as corresponding author. No DOI or publication PDF located.",
+    "topics": [
+      "storage-systems",
+      "deduplication",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2025-3d7a482349",
+    "year": 2026,
+    "title": "Argus: A Precise and Efficient Resemblance Detection for Post-Deduplication Delta Compression",
+    "authors": "Han Xu, Xiangyu Zou, Yunsheng Dong, Philip Shilane, Yanqi Pan, Cai Deng, and Wen Xia",
+    "venue": "TOS",
+    "citation": "ACM Transactions on Storage 22(1), Article 3, pp. 1–29, 2026.",
+    "url": "https://doi.org/10.1145/3747839",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1145/3747839"
+      }
+    ],
+    "bibtex": "@article{Xu20263d7a48,\n  title = {Argus: A Precise and Efficient Resemblance Detection for Post-Deduplication Delta Compression},\n  author = {Han Xu and Xiangyu Zou and Yunsheng Dong and Philip Shilane and Yanqi Pan and Cai Deng and Wen Xia},\n  journal = {ACM Transactions on Storage},\n  year = {2026},\n  doi = {10.1145/3747839},\n  volume = {22},\n  number = {1},\n  pages = {1--29}\n}\n",
+    "source_url": "https://doi.org/10.1145/3747839",
+    "evidence_note": "Replaces the same 2025 in-press entry; final publication is 2026, not an additional paper.",
+    "topics": [
+      "storage-systems",
+      "deduplication",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2025-f41b3c8d42",
+    "year": 2025,
+    "title": "The Logic of Fingerprint Upgrade in Deduplicated Storage",
+    "authors": "Cai Deng, Boju Chen, Philip Shilane, Xiangyu Zou, Wen Xia, Hao Hu",
+    "venue": "ICCD",
+    "citation": "43rd IEEE International Conference on Computer Design (ICCD), pp. 474–481, 2025.",
+    "url": "https://doi.org/10.1109/iccd65941.2025.00073",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/iccd65941.2025.00073"
+      }
+    ],
+    "bibtex": "@inproceedings{Deng2025f41b3c,\n  title = {The Logic of Fingerprint Upgrade in Deduplicated Storage},\n  author = {Cai Deng and Boju Chen and Philip Shilane and Xiangyu Zou and Wen Xia and Hao Hu},\n  booktitle = {2025 IEEE 43rd International Conference on Computer Design (ICCD)},\n  year = {2025},\n  doi = {10.1109/iccd65941.2025.00073},\n  pages = {474--481}\n}\n",
+    "source_url": "https://doi.org/10.1109/iccd65941.2025.00073",
+    "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301.",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2025-96094ee8ec",
+    "year": 2025,
+    "title": "The Design of an Efficient Lossy Compressor for Time Series Databases",
+    "authors": "Xiangyu Zou, Shihao Wang, Yang Shi, Xinyu Chen, Sian Jin, Dingwen Tao, Wen Xia",
+    "venue": "TACO",
+    "citation": "ACM Transactions on Architecture and Code Optimization 22(4), pp. 1–27, 2025.",
+    "url": "https://doi.org/10.1145/3767158",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1145/3767158"
+      }
+    ],
+    "bibtex": "@article{Zou202596094e,\n  title = {The Design of an Efficient Lossy Compressor for Time Series Databases},\n  author = {Xiangyu Zou and Shihao Wang and Yang Shi and Xinyu Chen and Sian Jin and Dingwen Tao and Wen Xia},\n  journal = {ACM Transactions on Architecture and Code Optimization},\n  year = {2025},\n  doi = {10.1145/3767158},\n  volume = {22},\n  number = {4},\n  pages = {1--27}\n}\n",
+    "source_url": "https://doi.org/10.1145/3767158",
+    "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301.",
+    "topics": [
+      "data-compression",
+      "databases-indexing"
+    ]
+  },
+  {
+    "id": "pub-2025-90b06144cd",
+    "year": 2025,
+    "title": "Towards Efficient Extendible Perfect Hashing for Hybrid PM-DRAM Memory",
+    "authors": "Hao Hu, Qi Chen, Yiming Yin, Xiangyu Zou, Ting Yao, Hongpeng Wang, Shiyi Li, Wen Xia",
+    "venue": "TACO",
+    "citation": "ACM Transactions on Architecture and Code Optimization 22(4), pp. 1–28, 2025.",
+    "url": "https://doi.org/10.1145/3770859",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1145/3770859"
+      }
+    ],
+    "bibtex": "@article{Hu202590b061,\n  title = {Towards Efficient Extendible Perfect Hashing for Hybrid PM-DRAM Memory},\n  author = {Hao Hu and Qi Chen and Yiming Yin and Xiangyu Zou and Ting Yao and Hongpeng Wang and Shiyi Li and Wen Xia},\n  journal = {ACM Transactions on Architecture and Code Optimization},\n  year = {2025},\n  doi = {10.1145/3770859},\n  volume = {22},\n  number = {4},\n  pages = {1--28}\n}\n",
+    "source_url": "https://doi.org/10.1145/3770859",
+    "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301.",
+    "topics": [
+      "databases-indexing",
+      "memory-flash"
+    ]
+  },
+  {
+    "id": "pub-2025-dba145a180",
+    "year": 2025,
+    "title": "Apic: A Precomputation-based Integer Compressor for OLTP Databases",
+    "authors": "Yufan Chen, Xiangyu Zou, Kaiwen Deng, Hao Hu, Cai Deng, Ke Feng, Wen Xia",
+    "venue": "DCC",
+    "citation": "2025 Data Compression Conference (DCC), pp. 303–312, 2025.",
+    "url": "https://doi.org/10.1109/dcc62719.2025.00038",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/dcc62719.2025.00038"
+      }
+    ],
+    "bibtex": "@inproceedings{Chen20255276aa,\n  title = {Apic: A Precomputation-Based Integer Compressor for OLTP Databases},\n  author = {Yufan Chen and Xiangyu Zou and Kaiwen Deng and Hao Hu and Cai Deng and Ke Feng and Wen Xia},\n  booktitle = {2025 Data Compression Conference (DCC)},\n  year = {2025},\n  doi = {10.1109/dcc62719.2025.00038},\n  pages = {303--312}\n}\n",
+    "source_url": "https://doi.org/10.1109/dcc62719.2025.00038",
+    "evidence_note": "Final author list, venue and pages checked against publisher-deposited Crossref metadata on 2026-11-18; original correspondence markers retained.",
+    "topics": [
+      "data-compression",
+      "databases-indexing"
+    ]
+  },
+  {
+    "id": "pub-2025-b3548afcc4",
+    "year": 2025,
+    "title": "A Cost-Effective and Decompression-Transparent Compressor for OLTP-Oriented Databases",
+    "authors": "Hao Hu, Qiyang Zheng, Xiangyu Zou, Lisha Qin, Chengwei Zhang, Wanchuan Zhang, Zhaoheng Jiang, Dingwen Tao, Hongpeng Wang, Wen Xia",
+    "venue": "ICDE",
+    "citation": "2025 IEEE 41st International Conference on Data Engineering (ICDE), pp. 405–418, 2025.",
+    "url": "https://doi.org/10.1109/icde65448.2025.00037",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/icde65448.2025.00037"
+      }
+    ],
+    "bibtex": "@inproceedings{Hu2025b3548a,\n  title = {A Cost-Effective and Decompression-Transparent Compressor for OLTP-Oriented Databases},\n  author = {Hao Hu and Qiyang Zheng and Xiangyu Zou and Lisha Qin and Chengwei Zhang and Wanchuan Zhang and Zhaoheng Jiang and Dingwen Tao and Hongpeng Wang and Wen Xia},\n  booktitle = {2025 IEEE 41st International Conference on Data Engineering (ICDE)},\n  year = {2025},\n  doi = {10.1109/icde65448.2025.00037},\n  pages = {405--418}\n}\n",
+    "source_url": "https://doi.org/10.1109/icde65448.2025.00037",
+    "evidence_note": "Final author list, venue and pages checked against publisher-deposited Crossref metadata on 2026-11-18; original correspondence markers retained.",
+    "topics": [
+      "data-compression",
+      "databases-indexing"
+    ]
+  },
+  {
+    "id": "pub-2025-dc1343a535",
+    "year": 2025,
+    "title": "Don't Maintain Twice, It's Alright: Merged Metadata Management in Deduplication File System with GogetaFS",
+    "authors": "Yanqi Pan, Wen Xia, Erci Xu, Hao Huang, Xiangyu Zou, Shiyi Li",
+    "venue": "FAST",
+    "citation": "23rd USENIX Conference on File and Storage Technologies (FAST), pp. 479–495, 2025.",
+    "url": "https://www.usenix.org/conference/fast25/presentation/pan",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.usenix.org/conference/fast25/presentation/pan"
+      }
+    ],
+    "bibtex": "",
+    "source_url": "https://www.usenix.org/conference/fast25/presentation/pan",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2025-f570492005",
+    "year": 2025,
+    "title": "Garbage Collection Does Not Only Collect Garbage: Piggybacking-Style Defragmentation for Deduplicated Backup Storage",
+    "authors": "Dingbang Liu, Xiangyu Zou, Tao Lu, Philip Shilane, Wen Xia, Wenxuan Huang, Yanqi Pan, Hao Huang",
+    "venue": "EuroSys",
+    "citation": "Proceedings of the Twentieth European Conference on Computer Systems, pp. 1026–1043, 2025.",
+    "url": "https://doi.org/10.1145/3689031.3717493",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1145/3689031.3717493"
+      }
+    ],
+    "bibtex": "@inproceedings{Liu2025f57049,\n  title = {Garbage Collection Does Not Only Collect Garbage: Piggybacking-Style Defragmentation for Deduplicated Backup Storage},\n  author = {Dingbang Liu and Xiangyu Zou and Tao Lu and Philip Shilane and Wen Xia and Wenxuan Huang and Yanqi Pan and Hao Huang},\n  booktitle = {Proceedings of the Twentieth European Conference on Computer Systems},\n  year = {2025},\n  doi = {10.1145/3689031.3717493},\n  pages = {1026--1043}\n}\n",
+    "source_url": "https://doi.org/10.1145/3689031.3717493",
+    "evidence_note": "Final author list, venue and pages checked against publisher-deposited Crossref metadata on 2026-11-18; original correspondence markers retained.",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2025-2c0fca5059",
+    "year": 2025,
+    "title": "The design of a high-performance fine-grained deduplication framework for backup storage",
+    "authors": "Xiangyu Zou, Wen Xia, Philip Shilane, Haijun Zhang, Xuan Wang",
+    "venue": "TPDS",
+    "citation": "IEEE Transactions on Parallel and Distributed Systems 36(5), pp. 945–960, 2025.",
+    "url": "https://doi.org/10.1109/tpds.2025.3551306",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/tpds.2025.3551306"
+      }
+    ],
+    "bibtex": "@article{Zou202506aae1,\n  title = {The Design of a High-Performance Fine-Grained Deduplication Framework for Backup Storage},\n  author = {Xiangyu Zou and Wen Xia and Philip Shilane and Haijun Zhang and Xuan Wang},\n  journal = {IEEE Transactions on Parallel and Distributed Systems},\n  year = {2025},\n  doi = {10.1109/tpds.2025.3551306},\n  volume = {36},\n  number = {5},\n  pages = {945--960}\n}\n",
+    "source_url": "https://doi.org/10.1109/tpds.2025.3551306",
+    "evidence_note": "Final author list, venue and pages checked against publisher-deposited Crossref metadata on 2026-11-18; original correspondence markers retained.",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2025-f7ef6f4799",
+    "year": 2025,
+    "title": "Simplifying and Accelerating NOR Flash I/O Stack for RAM-Restricted Microcontrollers",
+    "authors": "Hao Huang, Yanqi Pan, Wen Xia, Xiangyu Zou, Darong Yang, Liang Shi, Hongwei Du",
+    "venue": "ASPLOS",
+    "citation": "Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2, pp. 1076–1090, 2025.",
+    "url": "https://doi.org/10.1145/3676641.3716272",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1145/3676641.3716272"
+      }
+    ],
+    "bibtex": "@inproceedings{Huang2025f7ef6f,\n  title = {Simplifying and Accelerating NOR Flash I/O Stack for RAM-Restricted Microcontrollers},\n  author = {Hao Huang and Yanqi Pan and Wen Xia and Xiangyu Zou and Darong Yang and Liang Shi and Hongwei Du},\n  booktitle = {Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2},\n  year = {2025},\n  doi = {10.1145/3676641.3716272},\n  pages = {1076--1090}\n}\n",
+    "source_url": "https://doi.org/10.1145/3676641.3716272",
+    "evidence_note": "Final author list, venue and pages checked against publisher-deposited Crossref metadata on 2026-11-18; original correspondence markers retained.",
+    "topics": [
+      "storage-systems",
+      "memory-flash"
+    ]
+  },
+  {
+    "id": "pub-2025-ca7b87c267",
+    "year": 2025,
+    "title": "Fast and Synchronous Crash Consistency with Metadata Write-Once File System",
+    "authors": "Yanqi Pan, Wen Xia, Yifeng Zhang, Xiangyu Zou, Hao Huang, Zhenhua Li, Chentao Wu",
+    "venue": "OSDI",
+    "citation": "19th USENIX Symposium on Operating Systems Design and Implementation (OSDI), pp. 859–878, 2025.",
+    "url": "https://www.usenix.org/conference/osdi25/presentation/pan",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.usenix.org/conference/osdi25/presentation/pan"
+      }
+    ],
+    "bibtex": "",
+    "source_url": "https://www.usenix.org/conference/osdi25/presentation/pan",
+    "topics": [
+      "storage-systems"
+    ]
+  },
+  {
+    "id": "pub-2025-cbc4e8c792",
+    "year": 2025,
+    "title": "BirdMoE: Reducing Communication Costs for Mixture-of-Experts Training Using Load-Aware Bi-random Quantization",
+    "authors": "Donglei Wu, Weihao Yang, Xiangyu Zou, Jinda Jia, Dingwen Tao, Wen Xia, Zhihong Tian",
+    "venue": "DAC",
+    "citation": "2025 62nd ACM/IEEE Design Automation Conference (DAC), pp. 1–7, 2025.",
+    "url": "https://doi.org/10.1109/dac63849.2025.11132853",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/dac63849.2025.11132853"
+      }
+    ],
+    "bibtex": "@inproceedings{Wu2025cbc4e8,\n  title = {BirdMoE: Reducing Communication Costs for Mixture-of-Experts Training Using Load-Aware Bi-random Quantization},\n  author = {Donglei Wu and Weihao Yang and Xiangyu Zou and Jinda Jia and Dingwen Tao and Wen Xia and Zhihong Tian},\n  booktitle = {2025 62nd ACM/IEEE Design Automation Conference (DAC)},\n  year = {2025},\n  doi = {10.1109/dac63849.2025.11132853},\n  pages = {1--7}\n}\n",
+    "source_url": "https://doi.org/10.1109/dac63849.2025.11132853",
+    "evidence_note": "Final author list, venue and pages checked against publisher-deposited Crossref metadata on 2026-11-18; original correspondence markers retained.",
+    "topics": [
+      "ai-systems",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2025-dc9ebb4823",
+    "year": 2025,
+    "title": "PDPH: A Performant Dynamic Perfect Hash Index with Rehashing Optimizations",
+    "authors": "Jiarui Wang, Xiangyu Zou, Wen Xia, Hao Hu, Xiangrui Meng, Xudong Li",
+    "venue": "IWQoS",
+    "citation": "2025 IEEE/ACM 33rd International Symposium on Quality of Service (IWQoS), pp. 1–10, 2025.",
+    "url": "https://doi.org/10.1109/iwqos65803.2025.11143534",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/iwqos65803.2025.11143534"
+      }
+    ],
+    "bibtex": "@inproceedings{Wang2025dc9ebb,\n  title = {PDPH: A Performant Dynamic Perfect Hash Index with Rehashing Optimizations},\n  author = {Jiarui Wang and Xiangyu Zou and Wen Xia and Hao Hu and Xiangrui Meng and Xudong Li},\n  booktitle = {2025 IEEE/ACM 33rd International Symposium on Quality of Service (IWQoS)},\n  year = {2025},\n  doi = {10.1109/iwqos65803.2025.11143534},\n  pages = {1--10}\n}\n",
+    "source_url": "https://doi.org/10.1109/iwqos65803.2025.11143534",
+    "evidence_note": "Final author list, venue and pages checked against publisher-deposited Crossref metadata on 2026-11-18; original correspondence markers retained.",
+    "topics": [
+      "databases-indexing"
+    ]
+  },
+  {
+    "id": "pub-2025-b3104bc398",
+    "year": 2025,
+    "title": "A Comprehensive Study of Data Reduction Methods on Docker Container Images",
+    "authors": "Haoliang Tan, Lisha Qin, Xiangyu Zou, Cai Deng, Zhaoquan Gu, Wen Xia",
+    "venue": "IWQoS",
+    "citation": "2025 IEEE/ACM 33rd International Symposium on Quality of Service (IWQoS), pp. 1–6, 2025.",
+    "url": "https://doi.org/10.1109/iwqos65803.2025.11143348",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/iwqos65803.2025.11143348"
+      }
+    ],
+    "bibtex": "@inproceedings{Tan2025b3104b,\n  title = {A Comprehensive Study of Data Reduction Methods on Docker Container Images},\n  author = {Haoliang Tan and Lisha Qin and Xiangyu Zou and Cai Deng and Zhaoquan Gu and Wen Xia},\n  booktitle = {2025 IEEE/ACM 33rd International Symposium on Quality of Service (IWQoS)},\n  year = {2025},\n  doi = {10.1109/iwqos65803.2025.11143348},\n  pages = {1--6}\n}\n",
+    "source_url": "https://doi.org/10.1109/iwqos65803.2025.11143348",
+    "evidence_note": "Final author list, venue and pages checked against publisher-deposited Crossref metadata on 2026-11-18; original correspondence markers retained.",
+    "topics": [
+      "storage-systems",
+      "deduplication",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2024-8682fd969b",
+    "year": 2025,
+    "title": "MiDedup: A Restore-friendly Deduplication Method on Docker Image Storage Systems",
+    "authors": "Lisha Qin, Haoliang Tan, Xiangyu Zou, Wenhao Ou, Yan Wei, Rubing Huang, and Wen Xia",
+    "venue": "NPC",
+    "citation": "Network and Parallel Computing (NPC 2024), LNCS 15527, pp. 256–269, 2025.",
+    "url": "https://doi.org/10.1007/978-981-96-2830-8_20",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1007/978-981-96-2830-8_20"
+      }
+    ],
+    "bibtex": "",
+    "source_url": "https://doi.org/10.1007/978-981-96-2830-8_20",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2024-ff37b432b4",
+    "year": 2024,
+    "title": "The Design of a Lossless Deduplication Scheme to Eliminate Fine-grained Redundancy for JPEG Image Storage Systems",
+    "authors": "Cai Deng, Xiangyu Zou, Qi Chen, Bo Tang, and Wen Xia",
+    "venue": "TC",
+    "citation": "IEEE Transactions on Computers (TC), Vol.73, No.5, February 2024, pages: 1385 - 1399.",
+    "url": "https://ieeexplore.ieee.org/document/10423913",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/10423913"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2024-1ae1b95c7a",
+    "year": 2024,
+    "title": "Delaying Crash Consistency for Building A High-Performance Persistent Memory File System",
+    "authors": "Yanqi Pan, Hao Huang, Yifeng Zhang, Wen Xia, Xiangyu Zou, and Cai Deng",
+    "venue": "TCAD",
+    "citation": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), Vol. 43，No. 9, March 2024, Pages 2620-2634.",
+    "url": "https://ieeexplore.ieee.org/document/10466391/",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/10466391/"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "storage-systems",
+      "memory-flash"
+    ]
+  },
+  {
+    "id": "pub-2024-23fcedd2fe",
+    "year": 2024,
+    "title": "SuperDelta: Multiple Referenced Base Chunks Scheme for Fine-grained Deduplication Backup Storage System",
+    "authors": "Haoliang Tan, Xiangyu Zou, Binzhaoshuo Wan, Zhaoquan Gu, Wen Xia",
+    "venue": "DCC",
+    "citation": "in Proceedings of the 34th IEEE International Data Compression Conference (DCC'24). March 2024, pages: 362-371.",
+    "url": "https://ieeexplore.ieee.org/document/10533755",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/10533755"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "storage-systems",
+      "deduplication",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2024-9898b73372",
+    "year": 2024,
+    "title": "Machete: An Efficient Lossy Floating-Point Compressor Designed for Time Series Databases",
+    "authors": "Yang Shi, Xiangyu Zou, Xinyu Chen, Sian Jin, Dingwen Tao, Cai Deng, Yufan Chen, Wen Xia",
+    "venue": "DCC",
+    "citation": "in Proceedings of the 34th IEEE International Data Compression Conference (DCC'24). March 2024, pages:532-541.",
+    "url": "https://ieeexplore.ieee.org/document/10533743/",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/10533743/"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "data-compression",
+      "databases-indexing"
+    ]
+  },
+  {
+    "id": "pub-2024-60e6a17b32",
+    "year": 2024,
+    "title": "The Design of Fast Delta Encoding for Delta Compression Based Storage Systems",
+    "authors": "Haoliang Tan, Wen Xia, Xiangyu Zou, Cai Deng, Qing Liao, Zhaoquan Gu",
+    "venue": "TOS",
+    "citation": "ACM Transactions on Storage (TOS), Vol.1, No.1, May 2024, pages: 1-14.",
+    "url": "https://dl.acm.org/doi/10.1145/3664817",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://dl.acm.org/doi/10.1145/3664817"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "storage-systems",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2024-3306a5b779",
+    "year": 2024,
+    "title": "H2C-Dedup: Reducing I/O and GC Amplification for QLC SSDs from the Deduplication Metadata Perspective",
+    "authors": "Yunsheng Dong, Boju Chen, Yanqi Pan, Xiangyu Zou, Wen Xia",
+    "venue": "SoCC",
+    "citation": "in Proceedings of the 15th ACM Symposium on Cloud Computing (SoCC'24), Redmond, WA, USA, November 20-22, 2024, pages:704-719.",
+    "url": "https://dl.acm.org/doi/10.1145/3698038.3698507",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://dl.acm.org/doi/10.1145/3698038.3698507"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "storage-systems",
+      "deduplication",
+      "memory-flash"
+    ]
+  },
+  {
+    "id": "pub-2024-f970b023fe",
+    "year": 2024,
+    "title": "BIRD+: Design of a Lightweight Communication Compressor for Resource-Constrained Distribution Learning Platforms",
+    "authors": "Donglei Wu, Weihao Yang, Xiangyu Zou, Dingwen Tal, Shiyi Li, Wen Xia, Binxing Fang",
+    "venue": "TPDS",
+    "citation": "IEEE Transactions on Parallel and Distributed Systems (TPDS), Vol.35, No.11, November 2024, pages:2193-2207.",
+    "url": "https://ieeexplore.ieee.org/document/10643365/",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/10643365/"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "ai-systems",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2023-33ba183235",
+    "year": 2024,
+    "title": "FedComp: A Federated Learning Compression Framework for Resource-Constrained Edge Computing Devices",
+    "authors": "Donglei Wu, Weihao Yang, Haoyu Jin, Xiangyu Zou, Wen Xia, and Binxing Fang",
+    "venue": "TCAD",
+    "citation": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems 43(1), pp. 230–243, 2024.",
+    "url": "https://ieeexplore.ieee.org/document/10226409",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/10226409"
+      }
+    ],
+    "bibtex": "",
+    "source_url": "https://doi.org/10.1109/TCAD.2023.3307459",
+    "topics": [
+      "ai-systems",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2023-7247241691",
+    "year": 2023,
+    "title": "HUNTER: Releasing Persistent Memory Write Performance with A Novel PM-DRAM Collaboration Architecture",
+    "authors": "Yanqi Pan, Yifeng Zhang, Wen Xia, Xiangyu Zou and Cai Deng",
+    "venue": "DAC",
+    "citation": "in Proceedings of the 60th ACM/IEEE Design Automation Conference (DAC), San Francisco, CA, USA, Jun. 2023.",
+    "url": "https://ieeexplore.ieee.org/document/10247940/",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/10247940/"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "memory-flash"
+    ]
+  },
+  {
+    "id": "pub-2023-08025a454d",
+    "year": 2023,
+    "title": "DRPTM: A Decoupled Read-efficient High-scalable Persistent Transactional Memory",
+    "authors": "Wenkai Liang, Hao Hu, Xiangyu Zou, Wen Xia and Yanqi Pan",
+    "venue": "DAC",
+    "citation": "in Proceedings of the 60th ACM/IEEE Design Automation Conference (DAC), San Francisco, CA, USA, Jun. 2023.",
+    "url": "https://ieeexplore.ieee.org/document/10247971",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/10247971"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "memory-flash"
+    ]
+  },
+  {
+    "id": "pub-2023-7b83b4bf52",
+    "year": 2023,
+    "title": "The Design of Fast and Lightweight Resemblance Detection for Efficient Post-Deduplication Delta Compression",
+    "authors": "Wen Xia, Lifeng Pu, Xiangyu Zou, Philip Shilane, Shiyi Li, Haijun Zhang, and Xuan Wang",
+    "venue": "TOS",
+    "citation": "ACM Transactions on Storage (TOS), Vol. 19, No. 3, pp. 22:1-22:30, Jun. 2023.",
+    "url": "https://dl.acm.org/doi/10.1145/3584663",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://dl.acm.org/doi/10.1145/3584663"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "storage-systems",
+      "deduplication",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2023-716d14d74d",
+    "year": 2023,
+    "title": "Design of a Quantization-Based DNN Delta Compression Framework for Model Snapshots and Federated Learning",
+    "authors": "Haoyu Jin, Donglei Wu, Shuyu Zhang, Xiangyu Zou, Sian Jin, Dingwen Tao, Qing Liao, and Wen Xia",
+    "venue": "TPDS",
+    "citation": "IEEE Transactions on Parallel and Distributed Systems (TPDS), Vol. 34, no. 3, pp. 923-937, Jan. 2023.",
+    "url": "https://doi.org/10.1109/TPDS.2022.3230840",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/TPDS.2022.3230840"
+      }
+    ],
+    "bibtex": "",
+    "source_url": "https://doi.org/10.1109/TPDS.2022.3230840",
+    "topics": [
+      "ai-systems",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2023-1e638c8bab",
+    "year": 2023,
+    "title": "Light-Dedup: A Light-weight Inline Deduplication Framework for Non-Volatile Memory File Systems",
+    "authors": "Jiansheng Qiu, Yanqi Pan, Wen Xia, Xiaojia Huang, Wenjun Wu, Xiangyu Zou, Shiyi Li, and Yu Hua",
+    "venue": "USENIX ATC",
+    "citation": "in Proceedings of the 2023 USENIX Annual Technical Conference (USENIX ATC'23), Boston, MA, USA, July 10-12, 2023, pages:101-116.",
+    "url": "https://www.usenix.org/conference/atc23/presentation/qiu-jiansheng",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.usenix.org/conference/atc23/presentation/qiu-jiansheng"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "storage-systems",
+      "deduplication",
+      "memory-flash"
+    ]
+  },
+  {
+    "id": "pub-2023-b401a344df",
+    "year": 2023,
+    "title": "Smart-DNN+: a Memory-Efficient Neural Networks Compression Framework for the Model Inference",
+    "authors": "Donglei Wu, Weihao Yang, Xiangyu Zou, Wen Xia, Shiyi Li, Zhenbo Hu, Weizhe Zhang, and Binxing Fang",
+    "venue": "TACO",
+    "citation": "ACM Transactions on Architecture and Code Optimization (TACO), Vol.20, No.4, September 2023 pages:49:1-49:24.",
+    "url": "https://dl.acm.org/doi/10.1145/3617688",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://dl.acm.org/doi/10.1145/3617688"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "ai-systems",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2023-e303c74ea8",
+    "year": 2023,
+    "title": "BIRD: A Lightweight and Adaptive Compressor for Communication-Efficient Distributed Learning Using Tensor-wise Bi-Random Sampling",
+    "authors": "Donglei Wu, Weihao Yang, Cai Deng, Xiangyu Zou, Shiyi Li and Wen Xia",
+    "venue": "ICCD",
+    "citation": "in Proceedings of the 41th IEEE International Conference on Computer Design (ICCD), Washington DC, USA, Nov. 6-8, 2023. pages:605-613.",
+    "url": "https://ieeexplore.ieee.org/document/10361008",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/10361008"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "ai-systems",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2022-1f1b2f78ae",
+    "year": 2022,
+    "title": "A Focused Garbage Collection Approach for Primary Deduplicated Storage with Low Memory Overhead",
+    "authors": "Jingsong Yuan, Xiangyu Zou, Han Xu, Zhichao Cao, Shiyi Li, Wen Xia, Peng Wang and Li Chen",
+    "venue": "ICCD",
+    "citation": "in Proceedings of the 40th IEEE International Conference on Computer Design (ICCD), Lake Tahoe, USA, Otc. 2022.",
+    "url": "https://ieeexplore.ieee.org/document/9978503",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/9978503"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2022-a87155fe06",
+    "year": 2022,
+    "title": "SuperCDC: A Hybrid Design of High-performance Content-Defined Chunking for Fast Deduplication",
+    "authors": "Binzhaoshuo Wan, Lifeng Pu, Xiangyu Zou, Shiyi Li, Wen Xia and Peng Wang",
+    "venue": "ICCD",
+    "citation": "in Proceedings of the 40th IEEE International Conference on Computer Design (ICCD), Lake Tahoe, USA, Otc. 2022.",
+    "url": "https://ieeexplore.ieee.org/document/9978509",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/9978509"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2022-4f52d0695c",
+    "year": 2022,
+    "title": "Building a High-performance Fine-grained Deduplication Framework for Backup Storage with High Deduplication Ratio",
+    "authors": "Xiangyu Zou, Wen Xia, Philip Shilane, Haijun Zhang and Xuan Wang",
+    "venue": "USENIX ATC",
+    "citation": "in Proceedings of the 2022 USENIX Annual Technical Conference (USENIX ATC'22), Carlsbad, CA, USA, Jul. 2022.",
+    "url": "https://www.usenix.org/conference/atc22/presentation/zou",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.usenix.org/conference/atc22/presentation/zou"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2022-fd7bfe7b45",
+    "year": 2022,
+    "title": "NetSync: a Network Adaptive and Deduplication-Inspired Delta Synchronization Approach for Cloud Storage Services",
+    "authors": "Wen Xia, Can Wei, Zhenhua Li, Xuan Wang, and Xiangyu Zou",
+    "venue": "TPDS",
+    "citation": "IEEE Transactions on Parallel and Distributed Systems (TPDS), vol. 33, no. 19, pp. 2554-2570, Oct. 2022.",
+    "url": "https://ieeexplore.ieee.org/abstract/document/9693219",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/abstract/document/9693219"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2022-0dd2f6db47",
+    "year": 2022,
+    "title": "From Hyper-Dimensional Structure to Linear Structure: Maintaining Deduplicated Data's Locality",
+    "authors": "Xiangyu Zou, Jingsong Yuan, Philip Shilane, Wen Xia, Haijun Zhang, and Xuan Wang",
+    "venue": "TOS",
+    "citation": "ACM Transactions on Storage (TOS), vol. 18(3), no. 25, pp.1-28, Aug. 2022.",
+    "url": "https://dl.acm.org/doi/10.1145/3507921",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://dl.acm.org/doi/10.1145/3507921"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2022-76b3981836",
+    "year": 2022,
+    "title": "SmartIdx: Reducing Communication Cost in Federated Learning by Exploiting the CNNs Structures",
+    "authors": "Donglei Wu, Xiangyu Zou, Shuyu Zhang, Haoyu Jin, Wen Xia, and Binxing Fang",
+    "venue": "AAAI",
+    "citation": "in Proceedings of the 36th AAAI Conference on Artificial Intelligence (AAAI '22), Vancouver, Canada, Feb. 2022.",
+    "url": "https://aaai-2022.virtualchair.net/poster_aaai5753",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://aaai-2022.virtualchair.net/poster_aaai5753"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "ai-systems"
+    ]
+  },
+  {
+    "id": "pub-2022-c3b4172029",
+    "year": 2022,
+    "title": "imDedup: a Lossless Deduplication Scheme to Eliminate Fine-grained Redundancy among Images",
+    "authors": "Cai Deng, Qi Chen, Xiangyu Zou, Eric Xu, Bo Tang and Wen Xia",
+    "venue": "ICDE",
+    "citation": "in Proceedings of the 38th IEEE International Conference on Data Engineering (ICDE '22), Kuala Lumpur, Malaysia, May. 2022.",
+    "url": "https://ieeexplore.ieee.org/document/9835287",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/9835287"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2021-c39c196763",
+    "year": 2021,
+    "title": "QD-Compressor: a Quantization-based Delta Compression Framework for Deep Neural Networks",
+    "authors": "Shuyu Zhang, Donglei Wu, Haoyu Jin, Xiangyu Zou, Wen Xia and Xiaojia Huang",
+    "venue": "ICCD",
+    "citation": "in Proceedings of the 39th IEEE International Conference on Computer Design (ICCD '21), Oct. 2021.",
+    "url": "https://ieeexplore.ieee.org/document/9643728",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/9643728"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "ai-systems",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2021-55124d465d",
+    "year": 2021,
+    "title": "Smart-DNN: Efficiently Reducing the Memory Requirements of Running Deep Neural Networks on Resource-constrained Platforms",
+    "authors": "Zhenbo Hu, Xiangyu Zou, Wen Xia, Yuhong Zhao, Weizhe Zhang and Donglei Wu",
+    "venue": "ICCD",
+    "citation": "in Proceedings of the 39th IEEE International Conference on Computer Design (ICCD '21), Oct. 2021.",
+    "url": "https://ieeexplore.ieee.org/document/9643723",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/9643723"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "ai-systems",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2021-9323f777d2",
+    "year": 2021,
+    "title": "Odess: Speeding up Resemblance Detection for Redundancy Elimination by Fast Content-Defined Sampling",
+    "authors": "Xiangyu Zou, Cai Deng, Wen Xia, Philip Shilane, Haoliang Tan, Haijun Zhang, and Xuan Wang",
+    "venue": "ICDE",
+    "citation": "in Proceedings of the 37th IEEE International Conference on Data Engineering (ICDE '21), Chania, Greece, Apr. 2021.",
+    "url": "https://ieeexplore.ieee.org/document/9458911",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/9458911"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2021-15be90bc1f",
+    "year": 2021,
+    "title": "The Dilemma between Deduplication and Locality: Can Both be Achieved?",
+    "authors": "Xiangyu Zou, Jingsong Yuan, Philip Shilane, Wen Xia, Haijun Zhang, and Xuan Wang",
+    "venue": "FAST",
+    "citation": "in Proceedings of the 19th USENIX Conference on File and Storage Technologies (FAST '21), Santa Clara, CA, USA, Feb. 2021.",
+    "url": "https://www.usenix.org/conference/fast21/presentation/zou",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.usenix.org/conference/fast21/presentation/zou"
+      },
+      {
+        "label": "BibTeX",
+        "url": "/bibtex/zou2021FASTdilemma.bib"
+      }
+    ],
+    "bibtex": "@inproceedings{zou2021Dilemma,\n    author = {X. {Zou} and J. {Yuan} and P. {Shilane} and W. {Xia} and H. {Zhang} and X. {Wang}},\n    booktitle = {Proceedings of the 19th USENIX Conference on File and Storage Technologies (FAST '21)},\n    title = {The Dilemma between Deduplication and Locality: Can Both be Achieved?},\n    year = {2021},\n    month = feb,\n    address = {Santa Clara, CA, USA},\n}",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2020-c079e9af3d",
+    "year": 2020,
+    "title": "Exploring the Potential of Fast Delta Encoding: Marching to a Higher Compression Ratio",
+    "authors": "Haoliang Tan, Zhiyuan Zhang, Xiangyu Zou, Qing Liao, and Wen Xia",
+    "venue": "Cluster",
+    "citation": "in Proceedings of IEEE International Conference on Cluster Computing (Cluster '20), Kobe, Japan, Sep. 2020.",
+    "url": "https://ieeexplore.ieee.org/document/9229609",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/9229609"
+      }
+    ],
+    "bibtex": "",
+    "topics": [
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2020-2bb1537da5",
+    "year": 2020,
+    "title": "Delta-DNN: Efficiently Compressing Deep Neural Networks via Exploiting Floats Similarity",
+    "authors": "Zhenbo Hu, Xiangyu Zou, Wen Xia, Sian Jin, Dingwen Tao, Yang Liu, Weizhe Zhang, Zheng Zhang",
+    "venue": "ICPP",
+    "citation": "in Proceedings of 49th International Conference on Parallel Processing (ICPP '20), Edmonton, AB, Canada, Aug. 2020.",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3404397.3404408",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3404397.3404408"
+      },
+      {
+        "label": "BibTeX",
+        "url": "/bibtex/hu2020ICPPdeltadnn.bib"
+      }
+    ],
+    "bibtex": "@inproceedings{hu2020Deltadnn,\n    author = {Z. {Hu} and X. {Zou} and W. {Xia} and S. {Jin} and D. {Tao} and Y. {Liu} and W. {Zhang} and Z. {Zhang}},\n    booktitle = {Proceedings of 49th International Conference on Parallel Processing (ICPP'20)},\n    title = {Delta-DNN: Efficiently Compressing Deep Neural Networks via Exploiting Floats Similarity},\n    year = {2020},\n    month = aug,\n    address = {Edmonton, AB, Canada},\n    pages={1-12},\n    doi = {10.1145/3404397.3404408},\n}",
+    "topics": [
+      "ai-systems",
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2020-5e202ab2d9",
+    "year": 2020,
+    "title": "Dsync: a Lightweight Delta Synchronization Approach for Cloud Storage Services",
+    "authors": "Lingfeng Xiang, Yuan He, Wen Xia, Hong Jiang, Zhenhua Li, Xuan Wang, and Xiangyu Zou",
+    "venue": "MSST",
+    "citation": "in Proceedings of the 36th International Conference on Massive Storage Systems and Technology (MSST '20), Santa Clara, CA, USA, Oct. 2020.",
+    "url": "https://storageconference.us/2020/index.html",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://storageconference.us/2020/index.html"
+      },
+      {
+        "label": "BibTeX",
+        "url": "/bibtex/xiang2020MSSTdsync.bib"
+      }
+    ],
+    "bibtex": "@inproceedings{xiang2020Dsync,\n    author={Y. {He}, L. {Xiang}, W. {Xia}, H. {Jiang}, Z. {Li}, X. {Wang}, and X. {Zou}},\n    booktitle={Proceedings of 36th Symposium on Mass Storage Systems and Technologies (MSST'20)},\n    title={Dsync: a Lightweight Delta Synchronization Approach for Cloud Storage Services},\n    year={2020},\n    month=oct,\n    address = {Santa Clara, CA, USA},\n}",
+    "topics": [
+      "storage-systems"
+    ]
+  },
+  {
+    "id": "pub-2020-1f91fd2e6a",
+    "year": 2020,
+    "title": "Adaptively Compressing IoT Data on the Resource-constrained Edge",
+    "authors": "Tao Lu, Wen Xia, Xiangyu Zou, and Qianbin Xia",
+    "venue": "HotEdge",
+    "citation": "in Proceedings of the 3rd USENIX Workshop on Hot Topics in Edge Computing (HotEdge '20), Boston, MA, USA, Jul. 2020.",
+    "url": "https://www.usenix.org/conference/hotedge20/presentation/lu",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.usenix.org/conference/hotedge20/presentation/lu"
+      },
+      {
+        "label": "BibTeX",
+        "url": "/bibtex/lu2020HotEdgeadaptively.bib"
+      }
+    ],
+    "bibtex": "@inproceedings {lu2020Adaptively,\n    author = {T. {Lu} and W. {Xia} and X. {Zou} and Q. {Xia}},\n    booktitle = {Proceedings of 3rd {USENIX} Workshop on Hot Topics in Edge Computing (HotEdge'20)},\n    title = {Adaptively Compressing IoT Data on the Resource-constrained Edge},\n    year = {2020},\n    month = jun,\n}",
+    "topics": [
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2020-e8b72f9afa",
+    "year": 2020,
+    "title": "The Design of Fast Content-Defined Chunking for Data Deduplication based Storage Systems",
+    "authors": "Wen Xia, Xiangyu Zou, Yukun Zhou, Hong Jiang, Chuanyi Liu, Dan Feng, Yu Hua, Yuchong Hu, and Yucheng Zhang",
+    "venue": "TPDS",
+    "citation": "IEEE Transactions on Parallel and Distributed Systems (TPDS), vol. 31, no. 9, pp. 2017-2031, Sept. 2020.",
+    "url": "https://ieeexplore.ieee.org/document/9055082",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/9055082"
+      },
+      {
+        "label": "BibTeX",
+        "url": "/bibtex/xia2020TPDSdesign.bib"
+      }
+    ],
+    "bibtex": "@article{xia2020Design,\n    author={W. {Xia} and X. {Zou} and H. {Jiang} and Y. {Zhou} and C. {Liu} and D. {Feng} and Y. {Hua} and Y. {Hu} and Y. {Zhang}},\n    journal={IEEE Transactions on Parallel and Distributed Systems (TPDS)},\n    title={The Design of Fast Content-Defined Chunking for Data Deduplication Based Storage Systems},\n    year={2020},\n    volume={31},\n    number={9},\n    pages={2017-2031},\n    doi={10.1109/TPDS.2020.2984632}\n}",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  },
+  {
+    "id": "pub-2020-10ad1d4feb",
+    "year": 2020,
+    "title": "Performance Optimization for Relative-Error-Bounded Lossy Compression on Scientific Data",
+    "authors": "Xiangyu Zou, Tao Lu, Wen Xia, Xuan Wang, Weizhe Zhang, Haijun Zhang, Sheng Di, Dingwen Tao and Franck Cappello",
+    "venue": "TPDS",
+    "citation": "IEEE Transactions on Parallel and Distributed Systems (TPDS), vol.31, no.7, pp.1665-1680, Jul. 2020.",
+    "url": "https://ieeexplore.ieee.org/document/8989806",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/8989806"
+      },
+      {
+        "label": "BibTeX",
+        "url": "/bibtex/zou2020TPDSperformance.bib"
+      }
+    ],
+    "bibtex": "@article{zou2020Performance,\n    author={X. {Zou} and T. {Lu} and W. {Xia} and X. {Wang} and W. {Zhang} and H. {Zhang} and S. {Di} and D. {Tao} and F. {Cappello}},\n    journal={IEEE Transactions on Parallel and Distributed Systems (TPDS)},\n    title={Performance Optimization for Relative-Error-Bounded Lossy Compression on Scientific Data},\n    year={2020},\n    volume={31},\n    number={7},\n    pages={1665-1680},\n    doi={10.1109/TPDS.2020.2972548}\n}\n",
+    "topics": [
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2019-fa02242f1b",
+    "year": 2019,
+    "title": "Accelerating Lossy Compression on HPC datasets via Partitioning Computation for Parallel Processing",
+    "authors": "Xiangyu Zou, Tao Lu, Sheng Di, Dingwen Tao, Wen Xia, Xuan Wang, Weizhe Zhang and Qing Liao",
+    "venue": "HPCC",
+    "citation": "in Proceedings of the 21st IEEE International Conference on High Performance Computing and Communication (HPCC '19), Zhangjiajie, China, August. 2019.",
+    "url": "https://ieeexplore.ieee.org/abstract/document/8855561",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/abstract/document/8855561"
+      },
+      {
+        "label": "BibTeX",
+        "url": "/bibtex/zou2019HPCCaccelerating.bib"
+      }
+    ],
+    "bibtex": "@inproceedings{zou2019HPCCAccelerating,\n    author={X. {Zou} and T. {Lu} and S. {Di} and D. {Tao} and W. {Xia} and X. {Wang} and W. {Zhang} and Q. {Liao}},\n    booktitle={Proceedings of IEEE 21st International Conference on High Performance Computing and Communications (HPCC'19)},\n    title={Accelerating Lossy Compression on HPC Datasets via Partitioning Computation for Parallel Processing},\n    year={2019},\n    month=aug,\n    address = {Zhangjiajie, China},\n    pages={1791-1797},\n    doi={10.1109/HPCC/SmartCity/DSS.2019.00246}\n}",
+    "topics": [
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2019-e3021c9639",
+    "year": 2019,
+    "title": "Accelerating Relative-error Bounded Lossy Compression for HPC datasets with Precomputation-Based Mechanisms",
+    "authors": "Xiangyu Zou, Tao Lu, Wen Xia, Xuan Wang, Weizhe Zhang, Sheng Di, Dingwen Tao and Franck Cappello",
+    "venue": "MSST",
+    "citation": "in Proceedings of the 35th International Conference on Massive Storage Systems and Technology (MSST '19), Santa Clara, CA, USA, May. 2019.",
+    "url": "https://ieeexplore.ieee.org/document/8890088",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/8890088"
+      },
+      {
+        "label": "BibTeX",
+        "url": "/bibtex/zou2019MSSTaccelerating.bib"
+      }
+    ],
+    "bibtex": "@inproceedings{zou2019Accelerating,\n    author={X. {Zou} and T. {Lu} and W. {Xia} and X. {Wang} and W. {Zhang} and S. {Di} and D. {Tao} and F. {Cappello}},\n    booktitle={Proceedings of 35th Symposium on Mass Storage Systems and Technologies (MSST'19)},\n    title={Accelerating Relative-error Bounded Lossy Compression for HPC datasets with Precomputation-Based Mechanisms},\n    year={2019},\n    month=may,\n    address = {Santa Clara, CA, USA},\n    pages={65-78},\n    doi={10.1109/MSST.2019.00-15}\n}",
+    "topics": [
+      "data-compression"
+    ]
+  },
+  {
+    "id": "pub-2019-355140f882",
+    "year": 2019,
+    "title": "Accelerating Content-Defined-Chunking based Data Deduplication by Exploiting Parallelism",
+    "authors": "Wen Xia, Dan Feng, Hong Jiang, Yucheng Zhang, Victor Chang and Xiangyu Zou",
+    "venue": "FGCS",
+    "citation": "Future Generation Computer Systems (FGCS), Vol.98:406-418, 2019.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0167739X18320053",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0167739X18320053"
+      },
+      {
+        "label": "BibTeX",
+        "url": "/bibtex/xia2019FGCSaccelerating.bib"
+      }
+    ],
+    "bibtex": "@article{xia2019Accelerating,\n    author = {W. {Xia} and D. {Feng} and H. {Jiang} and Y. {Zhang} and V. {Chang} and X. {Zou}},\n    journal = {Future Generation Computer Systems (FGCS)},\n    title = {Accelerating content-defined-chunking based data deduplication by exploiting parallelism},\n    year = {2019},\n    volume = {98},\n    pages = {406-418},\n    doi = {https://doi.org/10.1016/j.future.2019.02.008},\n}",
+    "topics": [
+      "storage-systems",
+      "deduplication"
+    ]
+  }
+]

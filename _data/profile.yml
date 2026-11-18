@@ -1,0 +1,38 @@
+name: Xiangyu Zou
+role: Associate Professor
+institution: Harbin Institute of Technology, Shenzhen
+institution_url: https://www.hitsz.edu.cn/
+affiliations:
+  - name: School of Computer Science and Technology
+    url: https://csen.hitsz.edu.cn/
+  - name: Institute of Cyberspace Security
+    url: https://cybersecurity.hitsz.edu.cn/
+email: zouxiangyu@hit.edu.cn
+photo: /img/xiangyu-zou.webp
+scholar: https://scholar.google.com/citations?user=nF6Que0AAAAJ
+research:
+  - title: Storage Systems
+    description: Efficient file and backup storage, with an emphasis on data deduplication, compression, and data locality.
+  - title: AI Systems
+    description: Efficient training and inference for large models, including communication compression and KV cache reuse.
+appointments:
+  - role: Associate Professor
+    institution: Harbin Institute of Technology, Shenzhen
+    period: Dec. 2025 — Present
+    current: true
+  - role: Assistant Professor
+    institution: Harbin Institute of Technology, Shenzhen
+    period: Aug. 2023 — Dec. 2025
+education:
+  - field: Computer Science and Technology
+    degree: Ph.D.
+    institution: Harbin Institute of Technology, Shenzhen
+    url: https://www.hitsz.edu.cn/
+  - field: Software Engineering
+    degree: M.Eng.
+    institution: University of Science and Technology of China
+    url: https://www.ustc.edu.cn/
+  - field: Mathematics
+    degree: B.Sc.
+    institution: Shandong University
+    url: https://www.sdu.edu.cn/

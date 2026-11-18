@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% assign research_areas = site.data.profile.research | map: 'title' | join: ' and ' | escape %}
+  <meta charset="utf-8">
+  {% include google-analytics.html %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f9f5">
+  <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.data.profile.name }} — Academic Homepage</title>
+  <meta name="description" content="{{ site.data.profile.name }}, {{ site.data.profile.role }} at {{ site.data.profile.institution }}. Research on {{ research_areas }}.">
+  <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.data.profile.name }} — {{ site.data.profile.role }}">
+  <meta property="og:description" content="Research on {{ research_areas }}. {{ site.data.profile.institution }}.">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ site.data.profile.photo | absolute_url }}">
+  <link rel="icon" href="{{ '/img/favicon.ico' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/css/academic.css' | relative_url }}">
+  <script src="{{ '/js/academic.js' | relative_url }}" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="{{ site.data.profile.name | escape }}, home">{{ site.data.profile.name | escape }}</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}#about"{% if page.home %} class="nav-current"{% endif %}>About</a>
+        <a href="{{ '/' | relative_url }}#experience">Background</a>
+        <a href="{{ '/' | relative_url }}#research">Research</a>
+        <a href="{{ '/' | relative_url }}#publications">Publications</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">{{ content }}</main>
+  <footer class="site-footer wrap">
+    <a class="footer-name" href="{{ '/' | relative_url }}">{{ site.data.profile.name | escape }} <span>© {{ site.time | date: '%Y' }}</span></a>
+    <a href="#main">Back to top ↑</a>
+  </footer>
+</body>
+</html>

@@ -39,7 +39,7 @@ layout: default
                     <h5><a href="{{'/tags/' | prepend: site.baseurl }}">TAGS</a></h5>
                     <div class="tags">
         				{% for tag in site.tags %}
-                            {% if tag[1].size > {{site.featured-condition-size}} %}
+                            {% if tag[1].size > site.featured-condition-size %}
                 				<a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
                                     {{ tag[0] }}
                                 </a>
@@ -88,7 +88,7 @@ layout: default
                     <h5><a href="{{'/tags/' | prepend: site.baseurl }}">TAGS</a></h5>
                     <div class="tags">
                         {% for tag in site.tags %}
-                            {% if tag[1].size > {{site.featured-condition-size}} %}
+                            {% if tag[1].size > site.featured-condition-size %}
                                 <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
                                     {{ tag[0] }}
                                 </a>
@@ -102,11 +102,11 @@ layout: default
                 <section class="visible-md visible-lg">
                     <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
                     <div class="short-about">
-                        {% if site.sidebar-avatar %}
-                            <img src="{{site.sidebar-avatar}}" />
+                        {% if site.data.profile.photo %}
+                            <img src="{{ site.data.profile.photo | relative_url }}" alt="Portrait of {{ site.data.profile.name | escape }}" />
                         {% endif %}
-                        {% if site.sidebar-about-description %}
-                            <p>{{site.sidebar-about-description}}</p>
+                        {% if site.data.profile.email %}
+                            <p><a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a></p>
                         {% endif %}
                         <!-- SNS Link -->
                         <ul class="list-inline">
@@ -156,16 +156,6 @@ layout: default
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            {% endif %}
-                            {% if site.github_username %}
-                            <li>
-                                <a target="_blank" href="https://github.com/{{ site.github_username }}">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>

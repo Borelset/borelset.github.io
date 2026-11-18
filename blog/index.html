@@ -1,0 +1,15 @@
+---
+layout: academic
+title: Notes
+---
+<div class="wrap blog-page">
+  <p class="eyebrow section-kicker">From the notebook</p>
+  <h1>Notes &amp; explorations<span class="name-period">.</span></h1>
+  <p class="blog-intro">Technical notes on compression, storage, and systems.</p>
+  <div class="blog-list">
+    {% for post in paginator.posts %}
+    <article class="blog-entry"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%b %d, %Y' }}</time><div><h2><a href="{{ post.url | relative_url }}">{{ post.title }} <span aria-hidden="true">↗</span></a></h2><p lang="zh-CN">{{ post.content | strip_html | truncate: 200 }}</p>{% for tag in post.tags %}<a class="blog-tag" href="{{ '/tags/' | relative_url }}#{{ tag | uri_escape }}">{{ tag }}</a>{% endfor %}</div></article>
+    {% endfor %}
+  </div>
+  {% if paginator.total_pages > 1 %}<nav class="blog-pagination" aria-label="Blog pagination">{% if paginator.previous_page %}<a href="{{ paginator.previous_page_path | relative_url }}">← Newer notes</a>{% endif %}<span>{{ paginator.page }} / {{ paginator.total_pages }}</span>{% if paginator.next_page %}<a href="{{ paginator.next_page_path | relative_url }}">Older notes →</a>{% endif %}</nav>{% endif %}
+</div>

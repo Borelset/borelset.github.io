@@ -1,0 +1,275 @@
+{
+  "checked_on": "2026-11-18",
+  "requested_scholar_profile": "https://scholar.google.com/citations?user=nF6Que0AAAAJ&hl=zh-CN",
+  "scholar_status": "HTTP 429 from Google Scholar, including the official .com.hk domain; profile could not be exhaustively read.",
+  "coverage_note": "18 additions verified against official proceedings, publisher-deposited Crossref metadata and HIT Shenzhen news. This is not a claim of complete Google Scholar coverage. Original older entries were preserved except for specifically recorded corrections.",
+  "identity": "Xiangyu Zou, Harbin Institute of Technology, Shenzhen; ORCID 0000-0001-5104-8301. DBLP person page contains namesake contamination and was not imported wholesale.",
+  "original_count": 47,
+  "new_count": 65,
+  "added": [
+    {
+      "title": "Deduplication can Make File Systems Faster",
+      "year": 2026,
+      "source_url": "https://doi.org/10.1145/3806054",
+      "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301."
+    },
+    {
+      "title": "Improving the Restore Performance of Fine-Grained Deduplication on Docker Container Image Storage",
+      "year": 2026,
+      "source_url": "https://doi.org/10.1109/tpds.2026.3678624",
+      "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301."
+    },
+    {
+      "title": "Improving Compression Ratio of Lossy Compression for HPC via Modeling-Based Arithmetic Coding",
+      "year": 2027,
+      "source_url": "https://doi.org/10.1007/978-981-92-4805-6_35",
+      "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301. Springer recommended citation uses 2027; the chapter was already published online on 2026-08-24. Not a second copy of its DCC 2026 one-page abstract."
+    },
+    {
+      "title": "ZipFloat: An Ultra-fast and Lossless Floating-Point Compressor for LLM Inference Systems",
+      "year": 2026,
+      "source_url": "https://doi.org/10.1145/3770743.3804017",
+      "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301."
+    },
+    {
+      "title": "Improving Compression Ratio of Lossy Compression on HPC Datasets via Modeling-Based Arithmetic Coding",
+      "year": 2026,
+      "source_url": "https://doi.org/10.1109/dcc66757.2026.00107",
+      "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301."
+    },
+    {
+      "title": "CuCM: A GPU-Powered Context-Mixing Compressor for Archival Storage",
+      "year": 2026,
+      "source_url": "https://doi.org/10.1109/dcc66757.2026.00108",
+      "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301."
+    },
+    {
+      "title": "Once Rolling Hashing is Enough: Exploiting Rolling Hash Reuse in Delta Compression",
+      "year": 2026,
+      "source_url": "https://doi.org/10.1145/3767295.3803596",
+      "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301."
+    },
+    {
+      "title": "A High-Performance Persistent Transactional Memory System via Cooperative Concurrency Control",
+      "year": 2026,
+      "source_url": "https://doi.org/10.1145/3806645.3807586",
+      "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301."
+    },
+    {
+      "title": "The Enduring Potential of Locality: Efficient Routing for Fine-Grained Cluster Deduplication",
+      "year": 2026,
+      "source_url": "https://doi.org/10.1109/iwqos70441.2026.11661042",
+      "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301."
+    },
+    {
+      "title": "The Logic of Fingerprint Upgrade in Deduplicated Storage",
+      "year": 2025,
+      "source_url": "https://doi.org/10.1109/iccd65941.2025.00073",
+      "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301."
+    },
+    {
+      "title": "The Design of an Efficient Lossy Compressor for Time Series Databases",
+      "year": 2025,
+      "source_url": "https://doi.org/10.1145/3767158",
+      "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301."
+    },
+    {
+      "title": "Towards Efficient Extendible Perfect Hashing for Hybrid PM-DRAM Memory",
+      "year": 2025,
+      "source_url": "https://doi.org/10.1145/3770859",
+      "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301."
+    },
+    {
+      "title": "SuperDelta: Improving the Compression Ratio in the Fine-grained Deduplication Storage Systems",
+      "year": 2026,
+      "source_url": "https://doi.org/10.1145/3859484",
+      "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301. No volume/issue/page assigned yet; this is the journal article, distinct from the DCC 2024 conference paper."
+    },
+    {
+      "title": "NF2FS: A High-Performance and Long-Lifespan NOR Flash File System",
+      "year": 2026,
+      "source_url": "https://doi.org/10.1109/tcad.2026.3744529",
+      "evidence_note": "Publisher-deposited Crossref metadata checked 2026-11-18; identity matched by HIT Shenzhen affiliation and/or ORCID 0000-0001-5104-8301. No volume/issue yet; placeholder page range 1–1 omitted."
+    },
+    {
+      "title": "Towards Condensed and Efficient Read-Only File System via Sort-Enhanced Compression",
+      "year": 2026,
+      "source_url": "https://www.usenix.org/conference/fast26/presentation/huang",
+      "evidence_note": "Official USENIX proceedings and author affiliations checked 2026-11-18."
+    },
+    {
+      "title": "RESA: Bringing Back What Sparse Attention Ignores with Residual Estimation",
+      "year": 2026,
+      "source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/89bd6217280d1417370c89ee493ba3c7-Abstract-Conference.html",
+      "evidence_note": "Official ICLR 2026 proceedings and BibTeX checked 2026-11-18; same research group."
+    },
+    {
+      "title": "ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation",
+      "year": 2026,
+      "source_url": "https://proceedings.mlr.press/v306/wang26y.html",
+      "evidence_note": "Official PMLR proceedings checked 2026-11-18. Uses final author order, not the different arXiv author order; arXiv version is not counted separately."
+    },
+    {
+      "title": "BoundSim: Accelerating Resemblance Detection via Boundary-Aware Feature Extraction for Post-Deduplication Delta Compression",
+      "year": 2026,
+      "source_url": "https://www.hitsz.edu.cn/news/2026/1103/c6a18832/page.htm",
+      "evidence_note": "HIT Shenzhen official news dated 2026-11-03; complete author list verified from the accompanying IEEE award certificate. News identifies Xiangyu Zou as corresponding author. No DOI or publication PDF located."
+    }
+  ],
+  "updated": [
+    {
+      "title": "Argus: A Precise and Efficient Resemblance Detection for Post-Deduplication Delta Compression",
+      "change": "Added verified publisher link and citation export.",
+      "source_url": "https://doi.org/10.1145/3747839"
+    },
+    {
+      "title": "The design of a high-performance fine-grained deduplication framework for backup storage",
+      "change": "Added verified publisher link and citation export.",
+      "source_url": "https://doi.org/10.1109/tpds.2025.3551306"
+    },
+    {
+      "title": "Simplifying and Accelerating NOR Flash I/O Stack for RAM-Restricted Microcontrollers",
+      "change": "Added verified publisher link and citation export.",
+      "source_url": "https://doi.org/10.1145/3676641.3716272"
+    },
+    {
+      "title": "BirdMoE: Reducing Communication Costs for Mixture-of-Experts Training Using Load-Aware Bi-random Quantization",
+      "change": "Added verified publisher link and citation export.",
+      "source_url": "https://doi.org/10.1109/dac63849.2025.11132853"
+    },
+    {
+      "title": "Apic: A Precomputation-based Integer Compressor for OLTP Databases",
+      "change": "Added verified publisher link and citation export.",
+      "source_url": "https://doi.org/10.1109/dcc62719.2025.00038"
+    },
+    {
+      "title": "Garbage Collection Does Not Only Collect Garbage: Piggybacking-Style Defragmentation for Deduplicated Backup Storage",
+      "change": "Added verified publisher link and citation export.",
+      "source_url": "https://doi.org/10.1145/3689031.3717493"
+    },
+    {
+      "title": "A Cost-Effective and Decompression-Transparent Compressor for OLTP-Oriented Databases",
+      "change": "Added verified publisher link and citation export.",
+      "source_url": "https://doi.org/10.1109/icde65448.2025.00037"
+    },
+    {
+      "title": "A Comprehensive Study of Data Reduction Methods on Docker Container Images",
+      "change": "Added verified publisher link and citation export.",
+      "source_url": "https://doi.org/10.1109/iwqos65803.2025.11143348"
+    },
+    {
+      "title": "PDPH: A Performant Dynamic Perfect Hash Index with Rehashing Optimizations",
+      "change": "Added verified publisher link and citation export.",
+      "source_url": "https://doi.org/10.1109/iwqos65803.2025.11143534"
+    },
+    {
+      "title": "Argus: A Precise and Efficient Resemblance Detection for Post-Deduplication Delta Compression",
+      "change": "Moved from 2025 in press to formal 2026 TOS 22(1) publication.",
+      "source_url": "https://doi.org/10.1145/3747839"
+    },
+    {
+      "title": "The design of a high-performance fine-grained deduplication framework for backup storage",
+      "change": "Replaced in-press status with final volume and pages.",
+      "source_url": "https://doi.org/10.1109/tpds.2025.3551306"
+    },
+    {
+      "title": "Don't Maintain Twice, It's Alright: Merged Metadata Management in Deduplication File System with GogetaFS",
+      "change": "Added official USENIX paper link and final citation; GogetaFS final author list corrected.",
+      "source_url": "https://www.usenix.org/conference/fast25/presentation/pan"
+    },
+    {
+      "title": "Fast and Synchronous Crash Consistency with Metadata Write-Once File System",
+      "change": "Added official USENIX paper link and final citation; GogetaFS final author list corrected.",
+      "source_url": "https://www.usenix.org/conference/osdi25/presentation/pan"
+    },
+    {
+      "title": "Design of a Quantization-Based DNN Delta Compression Framework for Model Snapshots and Federated Learning",
+      "change": "Corrected a link that pointed to the unrelated NetSync paper.",
+      "source_url": "https://ieeexplore.ieee.org/abstract/document/10018182"
+    },
+    {
+      "title": "MiDedup: A Restore-friendly Deduplication Method on Docker Image Storage Systems",
+      "change": "Added Springer link and used the publisher’s 2025 recommended citation year; conference name remains NPC 2024.",
+      "source_url": "https://link.springer.com/chapter/10.1007/978-981-96-2830-8_20"
+    },
+    {
+      "title": "FedComp: A Federated Learning Compression Framework for Resource-Constrained Edge Computing Devices",
+      "change": "Corrected title typo and grouped by final 2024 journal volume rather than early-access 2023.",
+      "source_url": "https://doi.org/10.1109/TCAD.2023.3307459"
+    },
+    {
+      "title": "The design of a high-performance fine-grained deduplication framework for backup storage",
+      "change": "Updated final publisher author list and citation details, retaining original correspondence markers.",
+      "source_url": "https://doi.org/10.1109/TPDS.2025.3551306"
+    },
+    {
+      "title": "Simplifying and Accelerating NOR Flash I/O Stack for RAM-Restricted Microcontrollers",
+      "change": "Updated final publisher author list and citation details, retaining original correspondence markers.",
+      "source_url": "https://doi.org/10.1145/3676641.3716272"
+    },
+    {
+      "title": "BirdMoE: Reducing Communication Costs for Mixture-of-Experts Training Using Load-Aware Bi-random Quantization",
+      "change": "Updated final publisher author list and citation details, retaining original correspondence markers.",
+      "source_url": "https://doi.org/10.1109/DAC63849.2025.11132853"
+    },
+    {
+      "title": "Apic: A Precomputation-based Integer Compressor for OLTP Databases",
+      "change": "Updated final publisher author list and citation details, retaining original correspondence markers.",
+      "source_url": "https://doi.org/10.1109/DCC62719.2025.00038"
+    },
+    {
+      "title": "Garbage Collection Does Not Only Collect Garbage: Piggybacking-Style Defragmentation for Deduplicated Backup Storage",
+      "change": "Updated final publisher author list and citation details, retaining original correspondence markers.",
+      "source_url": "https://doi.org/10.1145/3689031.3717493"
+    },
+    {
+      "title": "A Cost-Effective and Decompression-Transparent Compressor for OLTP-Oriented Databases",
+      "change": "Updated final publisher author list and citation details, retaining original correspondence markers.",
+      "source_url": "https://doi.org/10.1109/ICDE65448.2025.00037"
+    },
+    {
+      "title": "A Comprehensive Study of Data Reduction Methods on Docker Container Images",
+      "change": "Updated final publisher author list and citation details, retaining original correspondence markers.",
+      "source_url": "https://doi.org/10.1109/IWQoS65803.2025.11143348"
+    },
+    {
+      "title": "PDPH: A Performant Dynamic Perfect Hash Index with Rehashing Optimizations",
+      "change": "Updated final publisher author list and citation details, retaining original correspondence markers.",
+      "source_url": "https://doi.org/10.1109/IWQoS65803.2025.11143534"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "Wisdom From File Systems: Fast and Reliable Update for Graph-based Vector Search via Soft Insert",
+      "reason": "Publisher metadata gives online publication 2027-04-10 and print 2027-04-11, both later than the check date. No separate acceptance verification.",
+      "source_url": "https://api.crossref.org/works/10.1145/3845814.3850061"
+    },
+    {
+      "title": "RCMoE: A Communication-Efficient Random Compression Framework for Resource-Constrained Mixture-of-Experts Training",
+      "reason": "Xiangyu Zou is absent from the official author list.",
+      "source_url": "https://ojs.aaai.org/index.php/AAAI/article/download/39899/43860"
+    },
+    {
+      "title": "Continuous Expert Assembly: Instance-Conditioned Low-Rank Residuals for All-in-One Image Restoration",
+      "reason": "Namesake author at Shenzhen University, not this HIT Shenzhen researcher.",
+      "source_url": "https://arxiv.org/html/2605.06127v1"
+    },
+    {
+      "title": "SWE-Game: Can Coding Agents Build the Games We Want?",
+      "reason": "Could not establish identity with the HIT Shenzhen researcher; omitted."
+    },
+    {
+      "title": "Frequency Nadir-Constrained Power System Restoration Planning with Energy Storage; Targeted Power System Frequency Attack via the Selection of Maliciously Controlled Inverters",
+      "reason": "Namesake electrical-power researcher; omitted."
+    }
+  ],
+  "sources": [
+    "https://dblp.org/pid/240/2218.html",
+    "https://api.crossref.org/works?filter=orcid:0000-0001-5104-8301&rows=100",
+    "https://proceedings.mlr.press/v306/wang26y.html",
+    "https://proceedings.iclr.cc/paper_files/paper/2026/hash/89bd6217280d1417370c89ee493ba3c7-Abstract-Conference.html",
+    "https://www.hitsz.edu.cn/news/2026/1103/c6a18832/page.htm",
+    "https://www.usenix.org/conference/fast26/presentation/huang",
+    "https://link.springer.com/chapter/10.1007/978-981-92-4805-6_35"
+  ]
+}

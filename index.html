@@ -1,42 +1,181 @@
 ---
-layout: page
-description: ""
+layout: academic
+home: true
 ---
-
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:200 }}
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+{% assign profile = site.data.profile %}
+<section class="hero wrap" id="about" aria-labelledby="profile-name">
+  <div class="hero-copy">
+    <h1 id="profile-name">Xiangyu Zou<span class="name-period">.</span></h1>
+    <p class="position">{{ profile.role }}</p>
+    {% include affiliation.html %}
+    <div class="profile-links">
+      <a class="primary-link" href="mailto:{{ profile.email }}">Get in touch <span aria-hidden="true">↗</span></a>
+      <a href="{{ profile.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+  <aside class="profile-aside" aria-label="Profile portrait">
+    <div class="portrait-frame">
+      <img src="{{ profile.photo | relative_url }}" width="960" height="960" alt="Portrait of {{ profile.name | escape }}" fetchpriority="high">
+    </div>
+  </aside>
+</section>
+<section class="experience-section wrap" id="experience" aria-labelledby="experience-title">
+  <div class="section-heading">
+    <h2 id="experience-title">Academic background</h2>
+  </div>
+  <div class="background-grid">
+    <div>
+      <h3 class="column-label">Appointments</h3>
+      <ol class="timeline">
+        {% for appointment in profile.appointments %}
+        <li{% if appointment.current %} class="current"{% endif %}>
+          <span class="timeline-date">{{ appointment.period }}</span>
+          <h4>{{ appointment.role }}</h4>
+          <p>{{ appointment.institution }}</p>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+    <div>
+      <h3 class="column-label">Education</h3>
+      <ul class="education-list">
+        {% for degree in profile.education %}
+        <li>
+          <span class="degree">{{ degree.degree }}</span>
+          <div>
+            <h4>{{ degree.field }}</h4>
+            <a href="{{ degree.url }}">{{ degree.institution }}</a>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="research-section wrap" id="research" aria-labelledby="research-title">
+  <div class="section-heading">
+    <h2 id="research-title">Research interests</h2>
+  </div>
+  <div class="research-grid">
+    {% for area in profile.research %}
+    <article class="research-item">
+      <h3>{{ area.title | escape }}</h3>
+      <p>{{ area.description | escape }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+<section class="publications-section wrap" id="publications" aria-labelledby="publications-title">
+  <div class="section-heading">
+    <h2 id="publications-title">Publications</h2>
+    <a class="text-link" href="{{ profile.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+  </div>
+  {% assign year_groups = site.data.publications | group_by: 'year' | sort: 'name' | reverse %}
+  {% assign topic_labels = site.data.publication_topics %}
+  {% assign ccf = site.data.ccf %}
+  <div class="publication-tools" id="publication-tools" hidden>
+    <div class="publication-topics" role="group" aria-label="Filter publications by topic">
+      <button type="button" data-topic="all" aria-pressed="true">All publications</button>
+      {% for topic in topic_labels %}
+      <button type="button" data-topic="{{ topic[0] }}" aria-pressed="false">{{ topic[1] | escape }}</button>
+      {% endfor %}
+    </div>
+    <div class="publication-filters">
+      <label class="search-field">
+        <span class="sr-only">Search publications by title, author, or venue</span>
+        <svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+        <input id="publication-search" type="search" placeholder="Search publications" autocomplete="off">
+      </label>
+      <label class="year-field">
+        <span class="sr-only">Publication year</span>
+        <select id="publication-year">
+          <option value="all">All years</option>
+          {% for group in year_groups %}
+          <option value="{{ group.name }}">{{ group.name }}</option>
+          {% endfor %}
+        </select>
+      </label>
+    </div>
+  </div>
+  <div class="publication-meta">
+    <p id="publication-count" role="status" aria-live="polite">{{ site.data.publications | size }} publications</p>
+    <div class="publication-meta-actions">
+      <button type="button" id="reset-filters" hidden>Clear filters</button>
+      <a href="{{ ccf.source_url }}" target="_blank" rel="noopener noreferrer">CCF {{ ccf.year }} catalogue <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+  <div id="publication-list">
+    {% for group in year_groups %}
+    <section class="publication-year-group" data-year="{{ group.name }}" aria-label="Publications from {{ group.name }}">
+      <h3 class="publication-year">{{ group.name }}</h3>
+      <div class="year-papers">
+        {% for paper in group.items %}
+        {% assign rank = ccf.ranks[paper.venue] %}
+        {% capture venue_label %}{{ paper.venue }}{% if rank and paper.format != 'poster' %} (CCF-{{ rank }}){% endif %}{% endcapture %}
+        {% assign authors = paper.authors | remove: '*' %}
+        <article class="paper" id="{{ paper.id }}" data-topics="{{ paper.topics | join: ' ' }}" data-search="{{ paper.title | append: ' ' | append: authors | append: ' ' | append: venue_label | downcase | escape }}">
+          <div class="paper-heading">
+            <span class="venue">{{ venue_label | escape }}</span>
+            <h4>
+              {% if paper.url and paper.url != empty %}
+              <a href="{{ paper.url | escape }}" target="_blank" rel="noopener noreferrer">{{ paper.title | escape }}</a>
+              {% else %}
+              {{ paper.title | escape }}
+              {% endif %}
+            </h4>
+          </div>
+          {% if paper.award and paper.award != empty %}
+          <p class="paper-award">{{ paper.award | escape }}</p>
+          {% endif %}
+          <p class="paper-authors">{{ authors | escape | replace: 'Xiangyu Zou', '<strong>Xiangyu Zou</strong>' }}</p>
+          <div class="paper-bottom">
+            <p class="paper-citation">{{ paper.citation | escape }}</p>
+            {% if paper.topics.size > 0 %}
+            <ul class="paper-topics" aria-label="Topics">
+              {% for topic in paper.topics %}
+              <li><button class="paper-topic" type="button" data-paper-topic="{{ topic }}" aria-label="Filter by {{ topic_labels[topic] | escape }}" disabled>{{ topic_labels[topic] | escape }}</button></li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+            <div class="paper-links">
+              {%- for link in paper.links -%}
+              {% if link.label != 'BibTeX' %}
+              <a href="{% if link.url contains '://' %}{{ link.url | escape }}{% else %}{{ link.url | relative_url }}{% endif %}" target="_blank" rel="noopener noreferrer">{{ link.label }} <span aria-hidden="true">↗</span></a>
+              {% endif %}
+              {%- endfor -%}
+              {%- if paper.bibtex and paper.bibtex != empty -%}
+              <details class="bibtex">
+                <summary>BibTeX</summary>
+                <div class="bibtex-body">
+                  <pre tabindex="0">{{ paper.bibtex | escape }}</pre>
+                  <div class="bibtex-actions">
+                    <button class="copy-bibtex" type="button" hidden>Copy citation</button>
+                    {% for link in paper.links %}
+                    {% if link.label == 'BibTeX' %}
+                    <a href="{{ link.url | relative_url }}" download>Download .bib ↓</a>
+                    {% endif %}
+                    {% endfor %}
+                  </div>
+                </div>
+              </details>
+              {%- endif -%}
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+  <div class="empty-state" id="publication-empty" hidden>
+    <h3>No matching publications</h3>
+    <p>Try another topic, year, or search term.</p>
+  </div>
+</section>
+<section class="contact-section wrap" id="contact" aria-labelledby="contact-title">
+  <div>
+    <h2 id="contact-title">Contact</h2>
+    <a class="contact-email" href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+  </div>
+  {% include affiliation.html %}
+</section>
